@@ -1,0 +1,88 @@
+name: pirate
+description: Black and white pirate flag theme
+
+colors:
+  banner_border: "#888888"
+  banner_title: "#FFFFFF"
+  banner_accent: "#CCCCCC"
+  banner_dim: "#555555"
+  banner_text: "#DDDDDD"
+  ui_accent: "#FFFFFF"
+  ui_label: "#AAAAAA"
+  ui_ok: "#BBBBBB"
+  ui_error: "#FFFFFF"
+  ui_warn: "#999999"
+  prompt: "#EEEEEE"
+  input_rule: "#666666"
+  response_border: "#AAAAAA"
+  session_label: "#CCCCCC"
+  session_border: "#555555"
+
+spinner:
+  waiting_faces:
+    - "(☠)"
+    - "(⚓)"
+    - "(⛵)"
+    - "(⚔)"
+    - "(☠)"
+  thinking_faces:
+    - "(☠)"
+    - "(⚓)"
+    - "(⛵)"
+    - "(⌁)"
+    - "(⚔)"
+  thinking_verbs:
+    - "hoisting the sails"
+    - "charting the course"
+    - "loading the cannons"
+    - "scanning the horizon"
+    - "reading the map"
+    - "tying the rigging"
+    - "swabbing the deck"
+    - "raising the flag"
+  wings:
+    - ["⟪☠", "☠⟫"]
+    - ["⟪⚓", "⚓⟫"]
+    - ["⟪⚔", "⚔⟫"]
+    - ["⟪⛵", "⛵⟫"]
+
+branding:
+  agent_name: "Pirate Agent"
+  welcome: "Ahoy! Welcome aboard, Captain. Type yer message or /help for orders."
+  goodbye: "Fair winds and following seas! ☠"
+  response_label: " ☠ Pirate "
+  prompt_symbol: "☠ ❯ "
+  help_header: "(☠) Captain's Orders"
+
+tool_prefix: "│"
+
+tool_emojis:
+  terminal: "⚔"
+  read_file: "📜"
+  search_files: "🔭"
+  web_search: "🧭"
+  write_file: "🪶"
+
+banner_logo: |
+  [bold #FFFFFF]██████╗ ██╗██████╗  █████╗ ████████╗███████╗       █████╗  ██████╗ ███████╗███╗   ██╗████████╗[/]
+  [bold #DDDDDD]██╔══██╗██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝      ██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝[/]
+  [#BBBBBB]██████╔╝██║██████╔╝███████║   ██║   █████╗  █████╗███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║[/]
+  [#999999]██╔═══╝ ██║██╔══██╗██╔══██║   ██║   ██╔══╝  ╚════╝██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║[/]
+  [#777777]██║     ██║██║  ██║██║  ██║   ██║   ███████╗      ██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║[/]
+  [#555555]╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝      ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝[/]
+
+banner_hero: |
+  [#888888]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣾⣿⣿⣷⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⢻⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣏⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠇[/]
+  [#AAAAAA]⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⠁⠀⣹⣿⡃⠀⢹⣟⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⡏⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⣷⣄⠀⠀⠀⠀⠀⠀⠰⣾⣿⣦⣶⡟⢹⣷⣤⣾⣷⡅⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⠟⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣷⣄⠀⠀⠀⠀⠀⠈⣉⡻⣿⣿⣿⣿⡿⢟⠉⠀⠀⠀⠀⠀⠀⣠⣾⣿⡿⠋⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⢿⣿⣿⣦⡀⠀⠀⠀⢺⣷⠺⠿⠿⠿⢹⣿⠀⠀⠀⠀⣀⣴⣿⣿⡿⠋⠁⠀⠀⠀⠀[/]
+  [#DDDDDD]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⡿⣷⣄⡀⠘⢿⣿⣿⣧⣷⣿⠏⠀⢀⣴⣾⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣽⠿⣷⣤⣉⠙⠙⣋⣥⣶⣾⣿⣿⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣷⠀⠀⠀⠀⢉⣻⣿⣿⣿⣿⣶⣿⣽⣿⠿⠛⠁⠀⠀⠀⣴⣶⡄⠀⠀⠀⠀⠀⠀[/]
+  [#DDDDDD]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣶⣶⣤⣤⣤⡿⣷⣼⡾⣿⣿⣿⣽⣾⡿⠟⠿⢿⣿⣿⣿⣿⣶⣶⣆⣼⡿⣁⣀⣀⣀⣀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⢿⡽⠛⠛⠛⠸⣿⡙⠛⠋⠉⠁⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠾⣿⡏⠾⠿⠿⣟⣿⣿⠂⠀⠀[/]
+  [#AAAAAA]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣶⣶⣾⠟⠁⠀⠀⠀⠉⠃⠀⠀⠀⠀[/]
+  [dim #555555]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀no quarter given⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]

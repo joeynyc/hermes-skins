@@ -1,0 +1,63 @@
+# Hermes Skin Template
+# Copy this file to ~/.hermes/skins/<name>.yaml
+# Rename 'myskin' below to match your filename
+# Delete any keys you don't want to customize (they'll inherit from default)
+
+name: myskin
+description: My custom Hermes theme
+
+colors:
+  banner_border: "#CD7F32"
+  banner_title: "#FFD700"
+  banner_accent: "#FFBF00"
+  banner_dim: "#B8860B"
+  banner_text: "#FFF8DC"
+  ui_accent: "#FFBF00"
+  ui_label: "#4dd0e1"
+  ui_ok: "#4caf50"
+  ui_error: "#ef5350"
+  ui_warn: "#ffa726"
+  prompt: "#FFF8DC"
+  input_rule: "#CD7F32"
+  response_border: "#FFD700"
+  session_label: "#DAA520"
+  session_border: "#8B8682"
+
+spinner:
+  waiting_faces:
+    - "(⚙)"
+    - "(◆)"
+    - "(◇)"
+  thinking_faces:
+    - "(⚙)"
+    - "(⌁)"
+    - "(<>)"
+  thinking_verbs:
+    - "processing"
+    - "analyzing"
+    - "computing"
+  wings:
+    - ["⟪⚡", "⚡⟫"]
+    - ["⟪●", "●⟫"]
+
+branding:
+  agent_name: "My Agent"
+  welcome: "Welcome! Type your message or /help for commands."
+  goodbye: "See you later!"
+  response_label: " ⚡ My Agent "
+  prompt_symbol: "⚡ ❯ "
+  help_header: "(⚡) Available Commands"
+
+tool_prefix: "┊"
+
+# Per-tool emoji overrides (optional)
+# tool_emojis:
+#   terminal: "⚔"
+#   web_search: "🔮"
+#   read_file: "📄"
+
+# Custom ASCII art (optional, Rich markup supported)
+# banner_logo: |
+#   [bold #FFD700] MY AGENT [/]
+# banner_hero: |
+#   [#FFD700]  Custom art here  [/]
