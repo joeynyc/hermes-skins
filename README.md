@@ -28,6 +28,7 @@ That's it. Missing values inherit from the default skin, so you only need to def
 | Skin | Description | Preview |
 |------|-------------|---------|
 | [pirate](skins/pirate.yaml) | Black & white pirate flag theme with skull-and-crossbones braille art | Monochrome, nautical |
+| [vault-tec](skins/vault-tec.yaml) | Fallout Vault-Tec terminal — green phosphor CRT on black | Green-on-black, retro CRT |
 
 ### Built-in (ship with Hermes)
 
