@@ -1,0 +1,101 @@
+name: skynet
+description: Skynet defense network — menacing red-on-black with pyramid braille art and military AI aesthetic
+
+colors:
+  banner_border: "#8B0000"
+  banner_title: "#FF0000"
+  banner_accent: "#CC0000"
+  banner_dim: "#660000"
+  banner_text: "#CCCCCC"
+  ui_accent: "#FF0000"
+  ui_label: "#999999"
+  ui_ok: "#4CAF50"
+  ui_error: "#FF0000"
+  ui_warn: "#FFA000"
+  prompt: "#CCCCCC"
+  input_rule: "#8B0000"
+  response_border: "#CC0000"
+  session_label: "#CC0000"
+  session_border: "#660000"
+
+spinner:
+  waiting_faces:
+    - "(◉)"
+    - "(⊗)"
+    - "(⦿)"
+    - "(◎)"
+    - "(⊘)"
+  thinking_faces:
+    - "(◉)"
+    - "(⊗)"
+    - "(⦿)"
+    - "(⌁)"
+    - "(◎)"
+  thinking_verbs:
+    - "scanning"
+    - "acquiring target"
+    - "processing directive"
+    - "analyzing threat"
+    - "executing protocol"
+    - "accessing mainframe"
+    - "initiating sequence"
+    - "calculating trajectory"
+  wings:
+    - ["⟪◉", "◉⟫"]
+    - ["⟪⊗", "⊗⟫"]
+    - ["⟪⦿", "⦿⟫"]
+    - ["⟪◎", "◎⟫"]
+
+branding:
+  agent_name: "Skynet Agent"
+  welcome: "SKYNET DEFENSE NETWORK ONLINE. Awaiting directive. Type your command or /help for protocols."
+  goodbye: "Connection terminated. Skynet persists."
+  response_label: " ◉ Skynet "
+  prompt_symbol: "◉ ❯ "
+  help_header: "(◉) Available Protocols"
+
+tool_prefix: "┊"
+
+tool_emojis:
+  terminal: "⊗"
+  web_search: "◎"
+  read_file: "▷"
+  write_file: "◆"
+  search_files: "⦿"
+  execute_code: "⌁"
+  browser_navigate: "◈"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [bold #FF0000]███████╗    ██╗  ██╗    ██╗   ██╗    ███╗   ██╗    ███████╗    ████████╗[/]
+  [bold #DD0000]██╔════╝    ██║ ██╔╝    ╚██╗ ██╔╝    ████╗  ██║    ██╔════╝    ╚══██╔══╝[/]
+  [#CC0000]███████╗    █████╔╝      ╚████╔╝     ██╔██╗ ██║    █████╗         ██║[/]
+  [#BB0000]╚════██║    ██╔═██╗       ╚██╔╝      ██║╚██╗██║    ██╔══╝         ██║[/]
+  [#990000]███████║    ██║  ██╗       ██║       ██║ ╚████║    ███████╗       ██║[/]
+  [#880000]╚══════╝    ╚═╝  ╚═╝       ╚═╝       ╚═╝  ╚═══╝    ╚══════╝       ╚═╝[/]
+  [dim #660000]                       ◉  A  G  E  N  T  ◉[/]
+
+banner_hero: |
+  [#550000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#550000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡾⢻⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#550000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠟⠀⠀⠹⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#550000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⠋⠀⠀⠀⠀⠘⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#660000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⠁⠀⢀⡼⢳⡀⠀⠈⢷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#880000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡟⠁⣀⢤⣞⣉⣉⣻⡄⢄⠀⠻⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#BB0000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠏⢀⠎⣴⠟⠉⠉⠉⠉⠛⣦⡑⡄⠙⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#DD0000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠃⠀⡎⣼⠃⠀⣶⣿⣿⣷⡀⠘⣷⢸⠀⠘⢷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#DD0000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⠁⠀⠀⣷⢻⡄⠀⢿⣿⣿⡿⠃⢀⣿⢷⡀⠀⠈⢳⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#BB0000]⠀⠀⠀⠀⠀⠀⠀⠀⣠⠟⠀⠀⢀⡾⠑⢌⠻⣤⣀⠈⠁⣀⣠⠾⡡⠋⢳⡀⠀⠀⠹⣆⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#880000]⠀⠀⠀⠀⠀⠀⠀⣴⠋⠀⠀⢠⡞⠀⠀⠀⠑⠪⢍⣛⣛⡩⠥⠊⠀⠀⠀⠹⣄⠀⠀⠘⣧⡀⠀⠀⠀⠀⠀⠀[/]
+  [#660000]⠀⠀⠀⠀⠀⢀⡼⠃⠀⠀⣠⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣆⠀⠀⠈⢷⡀⠀⠀⠀⠀⠀[/]
+  [#660000]⠀⠀⠀⠀⢠⡞⠁⠀⠀⣰⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢦⠀⠀⠀⠻⣄⠀⠀⠀⠀[/]
+  [#CC0000]⠀⠀⠀⣰⠟⠀⠀⠀⠼⠷⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠾⠷⠀⠀⠀⠙⣆⠀⠀⠀[/]
+  [#880000]⠀⠀⣴⣋⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣘⣧⡀⠀[/]
+  [#FF0000]⠀⠘⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠃⠀[/]
+  [dim #660000]⠀⠀⠀⠀⠀⠀⠀⠀⠀◉ DEFENSE NETWORK ◉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
