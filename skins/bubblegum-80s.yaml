@@ -1,0 +1,96 @@
+name: bubblegum-80s
+description: Totally radical 1980s bubblegum-inspired theme with bright pastels and neon accents
+
+colors:
+  banner_border: "#FF69B4"
+  banner_title: "#00D4FF"
+  banner_accent: "#FFFF00"
+  banner_dim: "#BF00FF"
+  banner_text: "#FFFFFF"
+  ui_accent: "#FF69B4"
+  ui_label: "#4DA6FF"
+  ui_ok: "#4CAF50"
+  ui_error: "#EF5350"
+  ui_warn: "#FFA726"
+  prompt: "#FFF8DC"
+  input_rule: "#FF69B4"
+  response_border: "#00D4FF"
+  session_label: "#FF69B4"
+  session_border: "#BF00FF"
+
+spinner:
+  waiting_faces:
+    - "(★)"
+    - "(♪)"
+    - "(◆)"
+    - "(▲)"
+    - "(●)"
+  thinking_faces:
+    - "(★)"
+    - "(♪)"
+    - "(◆)"
+    - "(⌁)"
+    - "(▲)"
+  thinking_verbs:
+    - "rewinding"
+    - "mixing"
+    - "jamming"
+    - "grooving"
+    - "rocking out"
+    - "dropping the beat"
+    - "cranking it up"
+    - "hitting play"
+  wings:
+    - ["⟪★", "★⟫"]
+    - ["⟪♪", "♪⟫"]
+    - ["⟪◆", "◆⟫"]
+    - ["⟪▲", "▲⟫"]
+
+branding:
+  agent_name: "Bubblegum Agent"
+  welcome: "Hey dude! Ready to shred some tasks? Type your message or /help for commands!"
+  goodbye: "Later, dude! See you on the flip side! ★"
+  response_label: " ★ Bubblegum "
+  prompt_symbol: "★ ❯ "
+  help_header: "(★) Radical Commands"
+
+tool_prefix: "┊"
+
+tool_emojis:
+  terminal: "⚔"
+  web_search: "◎"
+  read_file: "◇"
+  write_file: "◆"
+  search_files: "▷"
+  execute_code: "⌁"
+  browser_navigate: "◈"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+                  [bold #00D4FF] ______  _     _ ______  ______  _       _______ _______ _     _ _______ [/]
+                  [bold #FF69B4](____  \(_)   (_|____  \(____  \(_)     (_______|_______|_)   (_|_______)[/]
+                  [#FFFF00] ____)  )_     _ ____)  )____)  )_       _____   _   ___ _     _ _  _  _ [/]
+                  [#FF69B4]|  __  (| |   | |  __  (|  __  (| |     |  ___) | | (_  | |   | | ||_|| |[/]
+                  [#BF00FF]| |__)  ) |___| | |__)  ) |__)  ) |_____| |_____| |___) | |___| | |   | |[/]
+                  [#00D4FF]|______/ \_____/|______/|______/|_______)_______)\_____/ \_____/|_|   |_|[/]
+                  [dim #BF00FF]                       ★  A  G  E  N  T  ★[/]
+
+banner_hero: |
+  [#BF00FF]⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#00D4FF]⠀⠀⠀⠀⢀⣤⣿⣷⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣾⣷⣤⣤⣀⠀⠀⠀⠀[/]
+  [#FF69B4]⠀⠀⠀⠀⣿⠁⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⣀⠀[/]
+  [#00D4FF]⠀⠀⣶⠄⣿⠀⠀⠀⠀⠀⣰⠛⠉⢉⣭⠽⢯⣍⠉⠉⠉⠉⠉⠉⣩⡭⠿⣭⡉⠉⠙⣦⠀⠀⠀⠀⠀⣿⠀⠀⠛⠀[/]
+  [#FFFF00]⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⣿⠀⢰⡏⠀⣠⡀⠈⢻⡀⠀⠀⠀⣾⠁⢀⣄⠀⠙⣇⠀⣿⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀[/]
+  [#00D4FF]⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⣿⠀⠸⣇⠀⠙⠋⠀⣼⠃⠀⠀⠈⢷⡀⠈⠛⠁⢠⡟⠀⣿⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀[/]
+  [#FF69B4]⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠻⣄⣀⣈⣓⣶⣶⣛⣁⣀⣀⣀⣀⣀⣙⣲⣶⣞⣋⣀⣀⡿⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀[/]
+  [#FFFF00]⠀⠀⠀⠀⣿⠀⠀⠠⠀⠀⠀⠈⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁⠀⠀⠀⠠⠀⠀⣿⠀⠀⠀⠀[/]
+  [#BF00FF]⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⣀⠀⠀[/]
+  [#BF00FF]⠀⠀⠀⣶⣿⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠈⠛⠀⠀[/]
+  [#FF69B4]⠀⠀⠀⠀⠉⠻⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠶⠞⠋⠀⠀⠀⠀[/]
+  [dim #BF00FF]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀♪ press play ♪⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
