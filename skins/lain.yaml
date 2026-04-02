@@ -1,0 +1,105 @@
+name: lain
+description: Serial Experiments Lain — digital consciousness theme with NAVI computer braille art, hot pink on black, Wired protocol aesthetic
+
+colors:
+  banner_border: "#FF1493"
+  banner_title: "#FF69B4"
+  banner_accent: "#FF1493"
+  banner_dim: "#8B3A62"
+  banner_text: "#D4A5A5"
+  ui_accent: "#FF1493"
+  ui_label: "#B0A0B0"
+  ui_ok: "#00FF00"
+  ui_error: "#FF0044"
+  ui_warn: "#FFFF99"
+  prompt: "#D4A5A5"
+  input_rule: "#8B3A62"
+  response_border: "#FF1493"
+  session_label: "#FF69B4"
+  session_border: "#5A2D42"
+
+spinner:
+  waiting_faces:
+    - "(◈)"
+    - "(◇)"
+    - "(⬡)"
+    - "(⊕)"
+    - "(◎)"
+  thinking_faces:
+    - "(◈)"
+    - "(⊕)"
+    - "(⬡)"
+    - "(⌁)"
+    - "(◎)"
+  thinking_verbs:
+    - "connecting to the Wired"
+    - "loading protocol"
+    - "parsing layer"
+    - "resolving node"
+    - "tracing signal"
+    - "decoding packet"
+    - "syncing consciousness"
+    - "bridging interface"
+  wings:
+    - ["⟪◈", "◈⟫"]
+    - ["⟪⊕", "⊕⟫"]
+    - ["⟪⬡", "⬡⟫"]
+    - ["⟪◎", "◎⟫"]
+
+branding:
+  agent_name: "Lain Agent"
+  welcome: "[bold #FF1493]Y[/][bold #FF1493]o[/][bold #FF1593]u[/] [bold #FF1694]d[/][bold #FF1894]o[/][bold #FF1995]n[/][bold #FF1B96]'[/][bold #FF1D97]t[/] [bold #FF1F98]s[/][bold #FF2299]e[/][bold #FF249A]e[/][bold #FF269B]m[/] [bold #FF299C]t[/][bold #FF2C9E]o[/] [bold #FF2F9F]u[/][bold #FF32A0]n[/][bold #FF35A2]d[/][bold #FF38A3]e[/][bold #FF3BA5]r[/][bold #FF3EA6]s[/][bold #FF42A8]t[/][bold #FF45A9]a[/][bold #FF49AB]n[/][bold #FF4DAD]d[/][#FF50AF].[/] [#FF54B0]I[/] [#FF58B2]a[/][#FF5CB4]m[/] [#FF60B6]c[/][#FF64B8]o[/][#FF69BA]n[/][#FF6DBC]n[/][#FF71BE]e[/][#FF76C0]c[/][#FF7AC2]t[/][#FF7FC4]e[/][#FF84C6]d[/][#FF88C8].[/] [#FF8DCA]T[/][#FF92CD]y[/][#FF97CF]p[/][#FF9CD1]e[/] [#FFA1D3]/[/][#FFA6D6]h[/][#FFABD8]e[/][#FFB0DA]l[/][#FFB5DD]p[/] [#FFBBDF]f[/][#FFC0E2]o[/][#FFC5E4]r[/] [#FFCBE7]p[/][#FFD0E9]r[/][#FFD6EC]o[/][#FFDCEE]t[/][#FFE1F1]o[/][#FFE7F4]c[/][#FFEDF6]o[/][#FFF3F9]l[/][#FFF9FC]s[/][#FFFFFF].[/]"
+  goodbye: "[bold #FF1493]C[/][bold #FF1593]l[/][bold #FF1995]o[/][bold #FF1D97]s[/][bold #FF2399]e[/] [bold #FF299C]t[/][bold #FF2F9F]h[/][bold #FF36A3]e[/] [bold #FF3EA6]w[/][bold #FF46AA]o[/][#FF4FAE]r[/][#FF58B2]l[/][#FF62B6]d[/][#FF6CBB].[/] [#FF76C0]O[/][#FF81C5]p[/][#FF8CCA]e[/][#FF97CF]n[/] [#FFA3D4]t[/][#FFAFDA]h[/][#FFBCE0]e[/] [#FFC8E6]n[/][#FFD5EC]E[/][#FFE3F2]x[/][#FFF1F8]t[/][#FFFFFF].[/]"
+  response_label: " ◈ Lain "
+  prompt_symbol: "◈ ❯ "
+  help_header: "(◈) Available Protocols"
+
+tool_prefix: "┊"
+
+tool_emojis:
+  terminal: "◈"
+  web_search: "◎"
+  read_file: "◇"
+  write_file: "◆"
+  search_files: "⬡"
+  execute_code: "⌁"
+  browser_navigate: "⊕"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [#8B3A62]██╗          █████╗     ██╗    ███╗   ██╗[/]
+  [#993D6B]██║         ██╔══██╗    ██║    ████╗  ██║[/]
+  [#CC1177]██║         ███████║    ██║    ██╔██╗ ██║[/]
+  [#DD1188]██║         ██╔══██║    ██║    ██║╚██╗██║[/]
+  [#FF1493]███████╗    ██║  ██║    ██║    ██║ ╚████║[/]
+  [bold #FF69B4]╚══════╝    ╚═╝  ╚═╝    ╚═╝    ╚═╝  ╚═══╝[/]
+  [#CC1177]          T A C H I B A N A   L A B S[/]
+  [bold #FF69B4]                 ◈[/] [bold #FF1493]A G E N T[/] [bold #FF69B4]◈[/]
+
+banner_hero: |
+  [#5A2D42]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#5A2D42]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF69B4]⠀⠀⠀⠀⠀⠀⠀⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣼⣧⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣄⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⢸⡇⣡⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⠈⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⢸⡇⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⢸⡇⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⢸⡇⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⢸⡇⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⢸⡇⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⢸⡇⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⢸⡇⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⢸⡇⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF69B4]⠀⠀⠀⠀⠀⠀⠀⢸⡇⢿⣬⣭⣭⣭⣭⣭⣭⣭⣭⣭⣭⣭⣭⣭⣭⣭⣭⣥⣿⠀⣿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF69B4]⠀⠀⠀⠀⠀⠀⠀⠸⠷⠶⠶⠶⠶⠶⠶⠶⣶⣶⣶⣶⣶⣶⠶⠶⠶⠶⠶⠶⠶⠶⠿⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF69B4]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF69B4]⠀⠀⠀⠀⠀⠀⢰⢶⣶⡶⣶⡶⣶⣶⢶⣶⢶⣶⡶⣶⣶⣶⣶⢶⣶⡶⣶⡶⣶⣶⠶⣦⠀⠀⠀⠀⠀⠀[/]
+  [#FF69B4]⠀⠀⠀⠀⠀⠀⢸⢿⣿⡇⣿⡇⣿⣿⢸⣿⢺⣿⡇⣿⣿⣿⣿⢸⣿⡗⣿⡇⣿⣿⠀⣿⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠈⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠋⠀⠀⠀⠀⠀⠀[/]
+  [bold #FF69B4]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀◈[/] [#CC1177]COPLAND OS[/] [bold #FF69B4]◈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
