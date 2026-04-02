@@ -68,13 +68,25 @@ banner_hero: |        # Rich-markup hero art (replaces caduceus art)
 
 ## Rich Markup
 
-`banner_logo` and `banner_hero` support Rich console markup:
+`banner_logo`, `banner_hero`, `welcome`, and `goodbye` all support Rich console markup:
 
 ```
 [bold #FFD700]Gold bold text[/]
 [dim #555555]Dimmed text[/]
 [#FF0000]Red text[/]
 ```
+
+### Per-Character Gradients
+
+You can apply a color gradient across text by wrapping each character in its own markup tag.
+For example, a red-to-white gradient on the welcome message:
+
+```yaml
+welcome: "[bold #FF0000]S[/][bold #FF0404]K[/][bold #FF0909]Y[/]..."
+```
+
+Use an easing curve (e.g. `t^1.5`) so the primary color holds through most of the text
+and the secondary color appears toward the end. See `skins/skynet.yaml` for a full example.
 
 ## Inheritance
 
