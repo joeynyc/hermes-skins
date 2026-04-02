@@ -48,7 +48,7 @@ spinner:
 
 branding:
   agent_name: "Skynet Agent"
-  welcome: "[bold #FF0000]SKYNET[/] [bold #DD2222]DEFENSE[/] [bold #BB3333]NETWORK[/] [bold #FF0000]ONLINE.[/] [#CC6666]Awaiting directive.[/] [#CCCCCC]Type your command or /help for protocols.[/]"
+  welcome: "[bold #FF0000]S[/][bold #FF0303]K[/][bold #FF0606]Y[/][bold #FF0909]N[/][bold #FF0C0C]E[/][bold #FF1010]T[/] [bold #FF1313]D[/][bold #FF1616]E[/][bold #FF1919]F[/][bold #FF1D1D]E[/][bold #FF2020]N[/][bold #FF2323]S[/][bold #FF2626]E[/] [bold #FF2929]N[/][bold #FF2D2D]E[/][bold #FF3030]T[/][bold #FF3333]W[/][bold #FF3636]O[/][bold #FF3A3A]R[/][bold #FF3D3D]K[/] [#FF4040]O[/][#FF4343]N[/][#FF4747]L[/][#FF4A4A]I[/][#FF4D4D]N[/][#FF5050]E[/][#FF5353].[/] [#FF5757]A[/][#FF5A5A]w[/][#FF5D5D]a[/][#FF6060]i[/][#FF6464]t[/][#FF6767]i[/][#FF6A6A]n[/][#FF6D6D]g[/] [#FF7070]d[/][#FF7474]i[/][#FF7777]r[/][#FF7A7A]e[/][#FF7D7D]c[/][#FF8181]t[/][#FF8484]i[/][#FF8787]v[/][#FF8A8A]e[/][#FF8E8E].[/] [#FF9191]T[/][#FF9494]y[/][#FF9797]p[/][#FF9A9A]e[/] [#FF9E9E]y[/][#FFA1A1]o[/][#FFA4A4]u[/][#FFA7A7]r[/] [#FFABAB]c[/][#FFAEAE]o[/][#FFB1B1]m[/][#FFB4B4]m[/][#FFB7B7]a[/][#FFBBBB]n[/][#FFBEBE]d[/] [#FFC1C1]o[/][#FFC4C4]r[/] [#FFC8C8]/[/][#FFCBCB]h[/][#FFCECE]e[/][#FFD1D1]l[/][#FFD5D5]p[/] [#FFD8D8]f[/][#FFDBDB]o[/][#FFDEDE]r[/] [#FFE1E1]p[/][#FFE5E5]r[/][#FFE8E8]o[/][#FFEBEB]t[/][#FFEEEE]o[/][#FFF2F2]c[/][#FFF5F5]o[/][#FFF8F8]l[/][#FFFBFB]s[/][#FFFFFF].[/]"
   goodbye: "Connection terminated. Skynet persists."
   response_label: " ◉ Skynet "
   prompt_symbol: "◉ ❯ "
