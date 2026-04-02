@@ -48,7 +48,7 @@ spinner:
 
 branding:
   agent_name: "Skynet Agent"
-  welcome: "SKYNET DEFENSE NETWORK ONLINE. Awaiting directive. Type your command or /help for protocols."
+  welcome: "[bold #FF0000]SKYNET[/] [bold #DD2222]DEFENSE[/] [bold #BB3333]NETWORK[/] [bold #FF0000]ONLINE.[/] [#CC6666]Awaiting directive.[/] [#CCCCCC]Type your command or /help for protocols.[/]"
   goodbye: "Connection terminated. Skynet persists."
   response_label: " ◉ Skynet "
   prompt_symbol: "◉ ❯ "
