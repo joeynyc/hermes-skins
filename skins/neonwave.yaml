@@ -1,0 +1,106 @@
+name: neonwave
+description: Synthwave/retrowave neon aesthetic — hot pink and electric cyan on void purple, perspective grid horizon braille art, retro future vibes
+
+colors:
+  banner_border: "#6B1FB1"
+  banner_title: "#FF2975"
+  banner_accent: "#00FFFF"
+  banner_dim: "#4400AA"
+  banner_text: "#B0A4B8"
+  ui_accent: "#FF2975"
+  ui_label: "#F222FF"
+  ui_ok: "#00FF88"
+  ui_error: "#FF0044"
+  ui_warn: "#FFA726"
+  prompt: "#B0A4B8"
+  input_rule: "#6B1FB1"
+  response_border: "#FF2975"
+  session_label: "#00FFFF"
+  session_border: "#241734"
+
+spinner:
+  waiting_faces:
+    - "(▲)"
+    - "(◇)"
+    - "(⬡)"
+    - "(◎)"
+    - "(⊕)"
+  thinking_faces:
+    - "(▲)"
+    - "(⊕)"
+    - "(⬡)"
+    - "(⌁)"
+    - "(◇)"
+  thinking_verbs:
+    - "scanning the grid"
+    - "tracing neon signal"
+    - "syncing retro protocol"
+    - "modulating frequency"
+    - "rendering wireframe"
+    - "charging flux capacitor"
+    - "aligning laser array"
+    - "parsing waveform"
+  wings:
+    - ["⟪▲", "▲⟫"]
+    - ["⟪◇", "◇⟫"]
+    - ["⟪⬡", "⬡⟫"]
+    - ["⟪◎", "◎⟫"]
+
+branding:
+  agent_name: "Neonwave Agent"
+  welcome: "File unchanged since last read. The content from the earlier read_file result in this conversation is still current — refer to that instead of re-reading."
+  goodbye: "File unchanged since last read. The content from the earlier read_file result in this conversation is still current — refer to that instead of re-reading."
+  response_label: " ▲ Neonwave "
+  prompt_symbol: "▲ ❯ "
+  help_header: "(▲) Available Protocols"
+
+tool_prefix: "┊"
+
+tool_emojis:
+  terminal: "▲"
+  web_search: "◎"
+  read_file: "◇"
+  write_file: "◆"
+  search_files: "⬡"
+  execute_code: "⌁"
+  browser_navigate: "⊕"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [#4400AA]███╗   ██╗    ███████╗     ██████╗     ███╗   ██╗    ██╗    ██╗     █████╗     ██╗   ██╗    ███████╗[/]
+  [#8E08A0]████╗  ██║    ██╔════╝    ██╔═══██╗    ████╗  ██║    ██║    ██║    ██╔══██╗    ██║   ██║    ██╔════╝[/]
+  [#D91097]██╔██╗ ██║    █████╗      ██║   ██║    ██╔██╗ ██║    ██║ █╗ ██║    ███████║    ██║   ██║    █████╗  [/]
+  [#CC43A8]██║╚██╗██║    ██╔══╝      ██║   ██║    ██║╚██╗██║    ██║███╗██║    ██╔══██║    ╚██╗ ██╔╝    ██╔══╝  [/]
+  [#65A1D3]██║ ╚████║    ███████╗    ╚██████╔╝    ██║ ╚████║    ╚███╔███╔╝    ██║  ██║     ╚████╔╝     ███████╗[/]
+  [#00FFFF]╚═╝  ╚═══╝    ╚══════╝     ╚═════╝     ╚═╝  ╚═══╝     ╚══╝╚══╝     ╚═╝  ╚═╝      ╚═══╝      ╚══════╝[/]
+  [#7B2D8E]                                R E T R O   F U T U R E[/]
+  [bold #00FFFF]                                    ▲[/] [bold #FF2975]A G E N T[/] [bold #00FFFF]▲[/]
+
+banner_hero: |
+  [#FF00FF]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣶⣶⣶⣾⣶⣶⣶⣦⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣈⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF1493]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF6EC7]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠧⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF6EC7]⠀⠀⠀⠀⠀⠀⠀⠀⠀⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⡆⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF6EC7]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FFFFFF]⣤⣤⣤⣤⣤⣤⣤⣤⣬⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣤⣤⣤⣤⣤⣤⣤⣤[/]
+  [#FFFFFF]⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⣤⣾⣿⣷⣤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤[/]
+  [#00FFFF]⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⣤⢾⣿⢿⣿⡿⣿⣷⢤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤[/]
+  [#00FFFF]⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣴⣻⣱⣝⣇⣿⣸⣫⣞⣕⣧⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀[/]
+  [#00FFFF]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢔⠕⡕⡱⡹⢸⢸⠸⡈⡎⡎⢎⢎⢪⠢⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#00FFFF]⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⡴⡥⢧⠮⡴⢥⠧⡮⢼⠤⡧⢧⠼⡬⢦⠧⡵⡬⢦⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤[/]
+  [#0088FF]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⢊⠜⢠⠃⡰⠁⡎⢰⠁⢸⠀⡇⠸⡀⢣⠈⢆⠱⡈⠢⡑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#0088FF]⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⡰⠁⡰⠁⡰⠁⡜⠀⡜⠀⡇⠀⡇⠀⡇⠈⡆⠘⡄⠘⡄⠑⢄⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#0088FF]⠉⠉⠉⠉⠉⠉⠉⢉⠝⢉⠏⢉⠝⠉⡹⠉⢹⠉⢩⠋⠉⡏⠉⡏⠉⢹⠉⠹⡉⠙⡍⠉⢏⠉⠫⡉⠫⡉⠉⠉⠉⠉⠉⠉⠉[/]
+  [#4400FF]⠀⠀⠀⠀⠀⢀⠔⠁⡔⠁⢠⠊⠀⡰⠁⢀⠇⠀⡸⠀⠀⡇⠀⢸⠀⠈⡆⠀⢣⠀⠘⡄⠀⢣⠀⠑⢄⠈⠢⡀⠀⠀⠀⠀⠀[/]
+  [#4400FF]⠀⠀⠀⠀⡰⠁⢠⠊⠀⡠⠃⠀⡰⠁⠀⡎⠀⢀⠇⠀⢸⠀⠀⢸⠀⠀⢣⠀⠈⡆⠀⠘⡄⠀⠱⡀⠈⠢⡀⠈⢢⠀⠀⠀⠀[/]
+  [#4400FF]⠤⠤⡤⠮⢤⠴⠥⠤⡴⠥⠤⡴⠥⠤⡼⠤⠤⢼⠤⠤⢼⠤⠤⢼⠤⠤⠼⡤⠤⠼⡤⠤⠼⡤⠤⠼⡤⠤⠵⢤⠤⠵⢤⠤⠤[/]
+  [#4400FF]⡠⠊⠀⡠⠊⠀⢀⠎⠀⠀⡰⠁⠀⢠⠃⠀⠀⡇⠀⠀⢸⠀⠀⢸⠀⠀⠀⡇⠀⠀⢣⠀⠀⠘⡄⠀⠈⢆⠀⠈⠢⡀⠀⠑⢄[/]
+  [bold #00FFFF]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀▲[/] [#6B1FB1]NEONWAVE GRID[/] [bold #00FFFF]▲⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]

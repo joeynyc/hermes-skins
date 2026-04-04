@@ -32,6 +32,7 @@ That's it. Missing values inherit from the default skin, so you only need to def
 | [bubblegum-80s](skins/bubblegum-80s.yaml) | Totally radical 1980s bubblegum theme with bright pastels and neon accents | Cyan, pink, yellow, neon |
 | [skynet](skins/skynet.yaml) | Skynet defense network — Cyberdyne Systems military AI with glowing-eye pyramid, red-to-white gradient text | Red, white, black |
 | [lain](skins/lain.yaml) | Serial Experiments Lain — NAVI computer braille art, Wired protocol aesthetic, pink-to-white gradient text | Hot pink, black, mauve |
+| [neonwave](skins/neonwave.yaml) | Synthwave/retrowave neon aesthetic — perspective grid horizon braille art, retro future vibes, pink-to-cyan gradient text | Hot pink, cyan, purple, black |
 
 ### Built-in (ship with Hermes)
 
