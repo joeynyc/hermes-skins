@@ -33,6 +33,7 @@ That's it. Missing values inherit from the default skin, so you only need to def
 | [skynet](skins/skynet.yaml) | Skynet defense network — Cyberdyne Systems military AI with glowing-eye pyramid, red-to-white gradient text | Red, white, black |
 | [lain](skins/lain.yaml) | Serial Experiments Lain — NAVI computer braille art, Wired protocol aesthetic, pink-to-white gradient text | Hot pink, black, mauve |
 | [neonwave](skins/neonwave.yaml) | Synthwave/retrowave neon aesthetic — perspective grid horizon braille art, retro future vibes, pink-to-cyan gradient text | Hot pink, cyan, purple, black |
+| [sakura](skins/sakura.yaml) | Cherry blossom theme — sakura tree braille art with falling petals, soft pinks and blossom whites, serene spring aesthetic | Soft pink, white, rose, brown |
 
 ### Built-in (ship with Hermes)
 

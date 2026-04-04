@@ -1,0 +1,108 @@
+name: sakura
+description: Cherry blossom theme — soft pinks, blossom whites, bark browns, sakura tree braille art, serene spring aesthetic
+
+colors:
+  banner_border: "#CC5B8F"
+  banner_title: "#FFB7C5"
+  banner_accent: "#FFB7C5"
+  banner_dim: "#8F7AA0"
+  banner_text: "#FFF0F5"
+  ui_accent: "#CC5B8F"
+  ui_label: "#B76BA3"
+  ui_ok: "#7B9F6E"
+  ui_error: "#D94466"
+  ui_warn: "#E8A86B"
+  prompt: "#FFF0F5"
+  input_rule: "#5B3256"
+  response_border: "#FFB7C5"
+  session_label: "#FFDDE4"
+  session_border: "#4A3728"
+
+spinner:
+  waiting_faces:
+    - "(✿)"
+    - "(❀)"
+    - "(◌)"
+    - "(❁)"
+    - "(✾)"
+  thinking_faces:
+    - "(✿)"
+    - "(❁)"
+    - "(◌)"
+    - "(❀)"
+    - "(✾)"
+  thinking_verbs:
+    - "watching petals fall"
+    - "tracing branches"
+    - "reading the wind"
+    - "counting blossoms"
+    - "feeling the breeze"
+    - "catching petals"
+    - "listening to spring"
+    - "following the stream"
+  wings:
+    - ["⟪✿", "✿⟫"]
+    - ["⟪❀", "❀⟫"]
+    - ["⟪❁", "❁⟫"]
+    - ["⟪◌", "◌⟫"]
+
+branding:
+  agent_name: "Sakura Agent"
+  welcome: "[bold #CC3366]P[/][bold #CC3366]e[/][bold #CC3567]t[/][bold #CC3668]a[/][bold #CD386A]l[/][bold #CE3B6C]s[/] [bold #CF4070]f[/][bold #D04372]a[/][bold #D04674]l[/][bold #D14977]l[/] [bold #D3517C]s[/][bold #D4547F]o[/][bold #D55882]f[/][bold #D65D85]t[/][bold #D76188]l[/][#D8658C]y[/][#D96A8F].[/] [#DC7396]T[/][#DD789A]y[/][#DE7D9D]p[/][#DF82A1]e[/] [#E28DA9]/[/][#E392AD]h[/][#E598B2]e[/][#E69EB6]l[/][#E8A3BA]p[/] [#EBAFC3]f[/][#ECB5C8]o[/][#EEBCCC]r[/] [#F1C8D6]g[/][#F3CFDB]u[/][#F4D5E0]i[/][#F6DCE5]d[/][#F8E3EA]a[/][#F9EAEF]n[/][#FBF0F4]c[/][#FDF7F9]e[/][#FFFFFF].[/]"
+  goodbye: "[bold #CC3366]T[/][bold #CC3366]h[/][bold #CC3467]e[/] [bold #CD3769]b[/][bold #CE396A]l[/][bold #CF3A6B]o[/][bold #CF3D6D]s[/][bold #D03F6E]s[/][bold #D14170]o[/][bold #D24472]m[/][bold #D34674]s[/] [bold #D54C78]s[/][bold #D64F7A]c[/][bold #D8527C]a[/][#D9557E]t[/][#DA5881]t[/][#DB5C83]e[/][#DD5F86]r[/][#DE6388].[/] [#E16A8E]U[/][#E36E91]n[/][#E47293]t[/][#E67696]i[/][#E77A99]l[/] [#EB839F]n[/][#EC87A2]e[/][#EE8CA6]x[/][#F090A9]t[/] [#F399AF]s[/][#F59EB3]p[/][#F7A3B6]r[/][#F9A8BA]i[/][#FBACBD]n[/][#FDB1C1]g[/][#FFB7C5].[/]"
+  response_label: " ✿ Sakura "
+  prompt_symbol: "✿ ❯ "
+  help_header: "(✿) Available Commands"
+
+tool_prefix: "┊"
+
+tool_emojis:
+  terminal: "✿"
+  web_search: "◌"
+  read_file: "❀"
+  write_file: "❁"
+  search_files: "✾"
+  execute_code: "⌁"
+  browser_navigate: "◎"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [#8B2252]███████╗     █████╗     ██╗  ██╗    ██╗   ██╗    ██████╗      █████╗ [/]
+  [#B95D80]██╔════╝    ██╔══██╗    ██║ ██╔╝    ██║   ██║    ██╔══██╗    ██╔══██╗[/]
+  [#E799AE]███████╗    ███████║    █████╔╝     ██║   ██║    ██████╔╝    ███████║[/]
+  [#FFC5D0]╚════██║    ██╔══██║    ██╔═██╗     ██║   ██║    ██╔══██╗    ██╔══██║[/]
+  [#FFE2E7]███████║    ██║  ██║    ██║  ██╗    ╚██████╔╝    ██║  ██║    ██║  ██║[/]
+  [#FFFFFF]╚══════╝    ╚═╝  ╚═╝    ╚═╝  ╚═╝     ╚═════╝     ╚═╝  ╚═╝    ╚═╝  ╚═╝[/]
+  [#CC6688]                             H A N A M I[/]
+  [bold #FFB7C5]                            ✿[/] [bold #CC5B8F]A G E N T[/] [bold #FFB7C5]✿[/]
+
+banner_hero: |
+  [#FF69B4]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣤⣄⣀[/]
+  [#FFB7C5]⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⠀⠀⣀⣀⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣦⣄⣀[/]
+  [#FFC0CB]⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⠧⣦⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣄⠀⠀⠀⠀⢀[/]
+  [#FF69B4]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⣠⡀⠙⣡⣤⡀[/]
+  [#FFB7C5]⠀⠀⠀⠀⠀⠀⠠⡦⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠻⣿⡃[/]
+  [#FFC0CB]⠀⠀⠀⠀⢀⣤⣄⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣠⣈[/]
+  [#FF69B4]⠀⠀⠀⠀⠘⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣮⠙⠁[/]
+  [#FFB7C5]⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣠⣶⣦[/]
+  [#FF69B4]⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⡿⢯⣿⠿⣿⣿⣿⣿⣿⣿⣿⠿⠿⢿⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⠏[/]
+  [#FFB7C5]⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⣿⣿⡿⠻⡧⠀⠹⣿⣾⣿⣿⡇⣿⠁⠀⠀⣰⣿⠏⠛⣻⣿⣿⣿⣿⣿⣿⣿⡿⣫⣤⣄[/]
+  [#FFC0CB]⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠢⢄⡘⡄⠀⠙⢿⣿⡉⠀⣿⠀⢀⣼⣿⠋⠀⡰⠉⣛⠿⠯⠛⠋⠉⠁⠀⠻⠿⠃[/]
+  [#DDA0DD]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠈⠺⣦⡀⠈⠻⣿⣆⣿⢠⣾⡿⠁⢀⣴⠓⠉⠀⠀⠀⠀⠄[/]
+  [#D2691E]⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⢦⣀⠙⢿⣿⣿⠟⢀⣴⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤[/]
+  [#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀[/][#6B3410]⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣿⣿⣿⣴⠟⠁[/]
+  [#FFD1DC]⠀⠀⠀⠀⠀⠤[/][#8B4513]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡁[/][#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤⠀⠀⠈[/]
+  [#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⢀[/][#6B3410]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡇[/][#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄[/]
+  [#FFD1DC]⠀⠀⠀⠒[/][#8B4513]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡇[/]
+  [#FFD1DC]⠀⠀⠀⠀⠤[/][#6B3410]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡇[/][#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠄[/]
+  [#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀[/][#8B4513]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣷[/][#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄[/]
+  [#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠤[/][#6B3410]⠀⠀⠀⠀⣿⣿⣿⣿⣿[/][#FFD1DC]⠀⠀⠀⠀⠀⠉[/]
+  [#FFD1DC]⠀⠀⠀⠀⠀⠀⠁[/][#8B4513]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿[/][#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄[/]
+  [#FFD1DC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠂[/][#6B3410]⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⡀[/][#FFD1DC]⠀⠀⠀⠀⠀⠀⠈⠁[/]
+  [bold #FFB7C5]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀✿[/] [#CC5B8F]H A N A M I[/] [bold #FFB7C5]✿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
