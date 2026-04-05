@@ -1,0 +1,100 @@
+# Catppuccin Mocha — Soothing pastel theme for Hermes Agent
+# https://github.com/catppuccin/catppuccin
+# Palette: Mocha (darkest flavor)
+
+name: catppuccin-mocha
+description: Catppuccin Mocha — soothing pastel colors on a warm dark base, cozy terminal aesthetic
+
+colors:
+  banner_border: "#cba6f7"    # Mauve
+  banner_title: "#b4befe"     # Lavender
+  banner_accent: "#cba6f7"    # Mauve
+  banner_dim: "#7f849c"       # Overlay 1
+  banner_text: "#cdd6f4"      # Text
+  ui_accent: "#cba6f7"        # Mauve
+  ui_label: "#89b4fa"         # Blue
+  ui_ok: "#a6e3a1"            # Green
+  ui_error: "#f38ba8"         # Red
+  ui_warn: "#f9e2af"          # Yellow
+  prompt: "#cdd6f4"           # Text
+  input_rule: "#585b70"       # Surface 2
+  response_border: "#cba6f7"  # Mauve
+  session_label: "#b4befe"    # Lavender
+  session_border: "#45475a"   # Surface 1
+
+spinner:
+  waiting_faces:
+    - "(=^.^=)"
+    - "(=①ω①=)"
+    - "(=^-ω-^=)"
+    - "(=^◡^=)"
+  thinking_faces:
+    - "(=^.^=)"
+    - "(=^ω^=)"
+    - "(=^·^=)"
+    - "(=^-^=)"
+    - "(=◕ᴗ◕=)"
+  thinking_verbs:
+    - "brewing something warm"
+    - "curling up with data"
+    - "purring through tokens"
+    - "napping on the context"
+    - "kneading the response"
+    - "chasing a trailing thought"
+    - "stretching across layers"
+    - "whisker-sensing patterns"
+  wings:
+    - ["⟪◈", "◈⟫"]
+    - ["⟪●", "●⟫"]
+    - ["⟪◆", "◆⟫"]
+    - ["⟪⬡", "⬡⟫"]
+
+branding:
+  agent_name: "Hermes Agent"
+  welcome: "[bold #cba6f7]W[/][bold #cba8f7]e[/][bold #cbaaf7]l[/][bold #ccacf7]c[/][bold #ccaef7]o[/][bold #cdb0f7]m[/][bold #cdb2f7]e[/] [bold #ceb6f7]i[/][bold #cfb8f7]n[/][bold #cfbaf7].[/] [bold #d0bef7]I[/][bold #d1c0f7]t[/][bold #d2c4f7]'[/][bold #d3c6f8]s[/] [bold #d4caf8]w[/][bold #d5ccf8]a[/][bold #d6d0f8]r[/][bold #d8d2f8]m[/] [bold #d9d6f9]h[/][bold #dad8f9]e[/][bold #dbdcf9]r[/][bold #dddef9]e[/][bold #dee2fa].[/] [bold #e0e4fa]T[/][bold #e1e8fa]y[/][bold #e3eafb]p[/][bold #e4eefb]e[/] [bold #e6f0fb]/[/][bold #e8f4fc]h[/][bold #eaf6fc]e[/][bold #ecfafd]l[/][bold #eefcfd]p[/] [bold #f2fefe]f[/][bold #f5e0dc]o[/][bold #f5e0dc]r[/] [bold #f5e0dc]c[/][bold #f5e0dc]o[/][bold #f5e0dc]m[/][bold #f5e0dc]m[/][bold #f5e0dc]a[/][bold #f5e0dc]n[/][bold #f5e0dc]d[/][bold #f5e0dc]s[/][bold #f5e0dc].[/]"
+  goodbye: "[bold #cba6f7]S[/][bold #cda9f5]e[/][bold #cfacf3]e[/] [bold #d1b0f1]y[/][bold #d4b3ef]o[/][bold #d6b7ed]u[/] [bold #d9baeb]s[/][bold #dbbee9]o[/][bold #debfe7]o[/][bold #e0c3e5]n[/][bold #e3c6e3].[/]"
+  response_label: " ◈ Hermes "
+  prompt_symbol: "◈ ❯ "
+  help_header: "(◈) Available Commands"
+
+tool_prefix: "┊"
+
+tool_emojis:
+  terminal: "▸"
+  web_search: "◎"
+  read_file: "◇"
+  write_file: "◆"
+  search_files: "⬡"
+  execute_code: "⌁"
+  browser_navigate: "⊕"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [#45475a]██╗  ██╗    ███████╗    ██████╗     ███╗   ███╗    ███████╗    ███████╗[/]
+  [#585b70]██║  ██║    ██╔════╝    ██╔══██╗    ████╗ ████║    ██╔════╝    ██╔════╝[/]
+  [#89b4fa]███████║    █████╗      ██████╔╝    ██╔████╔██║    █████╗      ███████╗[/]
+  [#b4befe]██╔══██║    ██╔══╝      ██╔══██╗    ██║╚██╔╝██║    ██╔══╝      ╚════██║[/]
+  [#cba6f7]██║  ██║    ███████╗    ██║  ██║    ██║ ╚═╝ ██║    ███████╗    ███████║[/]
+  [bold #f5c2e7]╚═╝  ╚═╝    ╚══════╝    ╚═╝  ╚═╝    ╚═╝     ╚═╝    ╚══════╝    ╚══════╝[/]
+  [#9399b2]           c  a  t  p  p  u  c  c  i  n     m  o  c  h  a[/]
+  [bold #cba6f7]                      ◈[/] [bold #b4befe]A G E N T[/] [bold #cba6f7]◈[/]
+
+banner_hero: |
+  [#585b70]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠤⠤⠤⠤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#6c7086]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⢄⠀⠀⡠⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#7f849c]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠢⠔⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#cba6f7]⠀⠀⠀⠀⠀⠀⠀⢰⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⡆⠀⣶⣶⡄⠀⠀⠀⠀⠀⠀[/]
+  [#b4befe]⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀[/]
+  [#89b4fa]⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀[/]
+  [#74c7ec]⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠿⠿⠃⠀⠀⠀⠀⠀⠀[/]
+  [#94e2d5]⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#a6e3a1]⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#f9e2af]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠿⠿⠿⠿⠿⠿⠿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#fab387]⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#9399b2]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀◈[/] [#7f849c]catppuccin mocha[/] [#9399b2]◈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
