@@ -25,15 +25,54 @@ That's it. Missing values inherit from the default skin, so you only need to def
 
 ### Custom
 
-| Skin | Description | Preview |
-|------|-------------|---------|
-| [pirate](skins/pirate.yaml) | Black & white pirate flag theme with skull-and-crossbones braille art | Monochrome, nautical |
-| [vault-tec](skins/vault-tec.yaml) | Fallout Vault-Tec terminal — green phosphor CRT on black | Green-on-black, retro CRT |
-| [bubblegum-80s](skins/bubblegum-80s.yaml) | Totally radical 1980s bubblegum theme with bright pastels and neon accents | Cyan, pink, yellow, neon |
-| [skynet](skins/skynet.yaml) | Skynet defense network — Cyberdyne Systems military AI with glowing-eye pyramid, red-to-white gradient text | Red, white, black |
-| [lain](skins/lain.yaml) | Serial Experiments Lain — NAVI computer braille art, Wired protocol aesthetic, pink-to-white gradient text | Hot pink, black, mauve |
-| [neonwave](skins/neonwave.yaml) | Synthwave/retrowave neon aesthetic — perspective grid horizon braille art, retro future vibes, pink-to-cyan gradient text | Hot pink, cyan, purple, black |
-| [sakura](skins/sakura.yaml) | Cherry blossom theme — sakura tree braille art with falling petals, soft pinks and blossom whites, serene spring aesthetic | Soft pink, white, rose, brown |
+#### Pirate
+Black & white pirate flag theme with skull-and-crossbones braille art. Monochrome, nautical.
+
+→ [pirate.yaml](skins/pirate.yaml)
+
+![pirate](screenshots/pirate.png)
+
+#### Vault-Tec
+Fallout Vault-Tec terminal — green phosphor CRT on black. Retro computing.
+
+→ [vault-tec.yaml](skins/vault-tec.yaml)
+
+![vault-tec](screenshots/vault-tec.png)
+
+#### Bubblegum 80s
+Totally radical 1980s bubblegum theme with bright pastels and neon accents.
+
+→ [bubblegum-80s.yaml](skins/bubblegum-80s.yaml)
+
+![bubblegum-80s](screenshots/bubblegum-80s.png)
+
+#### Skynet
+Skynet defense network — Cyberdyne Systems military AI with glowing-eye pyramid, red-to-white gradient text.
+
+→ [skynet.yaml](skins/skynet.yaml)
+
+![skynet](screenshots/skynet.png)
+
+#### Lain
+Serial Experiments Lain — NAVI computer braille art, Wired protocol aesthetic, pink-to-white gradient text.
+
+→ [lain.yaml](skins/lain.yaml)
+
+![lain](screenshots/lain.png)
+
+#### Neonwave
+Synthwave/retrowave neon aesthetic — perspective grid horizon braille art, retro future vibes, pink-to-cyan gradient text.
+
+→ [neonwave.yaml](skins/neonwave.yaml)
+
+![neonwave](screenshots/neonwave.png)
+
+#### Sakura
+Cherry blossom theme — sakura tree braille art with falling petals, soft pinks and blossom whites, serene spring aesthetic.
+
+→ [sakura.yaml](skins/sakura.yaml)
+
+![sakura](screenshots/sakura.png)
 
 ### Built-in (ship with Hermes)
 
