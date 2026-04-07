@@ -74,6 +74,13 @@ Cherry blossom theme — sakura tree braille art with falling petals, soft pinks
 
 ![sakura](screenshots/sakura.png)
 
+#### Netrunner
+Cyberpunk netrunner — neural interface hacker aesthetic with skull and neural connection braille art, cyan ICE-breaking colors on black, cyberdeck protocol branding.
+
+→ [netrunner.yaml](skins/netrunner.yaml)
+
+![netrunner](screenshots/netrunner.png)
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.
