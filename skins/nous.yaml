@@ -1,0 +1,102 @@
+name: nous
+description: "Nous Research — open-source AI lab, owl mascot braille art, warm amber and gold palette, Hermes model creators"
+
+colors:
+  banner_border: "#6B3A00"
+  banner_title: "#DD8E35"
+  banner_accent: "#FFAA44"
+  banner_dim: "#8B6914"
+  banner_text: "#F5E6D0"
+  ui_accent: "#DD8E35"
+  ui_label: "#FFAA44"
+  ui_ok: "#66BB6A"
+  ui_error: "#EF5350"
+  ui_warn: "#FFA726"
+  prompt: "#F5E6D0"
+  input_rule: "#6B3A00"
+  response_border: "#DD8E35"
+  session_label: "#FFAA44"
+  session_border: "#5C4A1E"
+
+spinner:
+  waiting_faces:
+    - "(◎)"
+    - "(∴)"
+    - "(☉)"
+    - "(✦)"
+    - "(⚙)"
+  thinking_faces:
+    - "(◎)"
+    - "(∴)"
+    - "(☉)"
+    - "(✦)"
+    - "(≡)"
+  thinking_verbs:
+    - "fine-tuning parameters"
+    - "synthesizing data"
+    - "training the model"
+    - "aligning preferences"
+    - "running inference"
+    - "optimizing weights"
+    - "distilling knowledge"
+    - "evaluating benchmarks"
+  wings:
+    - ["⟨◎", "◎⟩"]
+    - ["⟨∴", "∴⟩"]
+    - ["⟨☉", "☉⟩"]
+    - ["⟨✦", "✦⟩"]
+
+branding:
+  agent_name: "Nous Agent"
+  welcome: "[bold #DD8E35]K[/][bold #DD8E35]n[/][bold #DD8E36]o[/][bold #DD8F37]w[/][bold #DD8F37]l[/][bold #DE9038]e[/][bold #DE913A]d[/][bold #DE913B]g[/][bold #DE923C]e[/] [bold #DE933D]s[/][bold #DF943F]e[/][bold #DF9440]e[/][bold #DF9542]k[/][bold #DF9644]s[/] [bold #E09745]t[/][bold #E09847]h[/][bold #E09949]e[/] [bold #E19A4B]o[/][bold #E19B4D]p[/][bold #E19C4F]e[/][bold #E29E51]n[/] [bold #E29F53]p[/][bold #E2A055]a[/][bold #E3A157]t[/][bold #E3A25A]h[/][bold #E4A45C].[/] [bold #E4A55E]H[/][bold #E4A661]e[/][bold #E5A863]r[/][bold #E5A966]m[/][#E6AB68]e[/][#E6AC6B]s[/] [#E6AD6D]i[/][#E7AF70]n[/][#E7B073]i[/][#E8B275]t[/][#E8B478]i[/][#E9B57B]a[/][#E9B77E]l[/][#EAB881]i[/][#EABA84]z[/][#EBBC87]e[/][#EBBD8A]d[/][#ECBF8D].[/] [#ECC190]T[/][#EDC393]y[/][#EDC496]p[/][#EEC699]e[/] [#EEC89C]y[/][#EFCAA0]o[/][#F0CCA3]u[/][#F0CDA6]r[/] [#F1CFAA]q[/][#F1D1AD]u[/][#F2D3B0]e[/][#F2D5B4]r[/][#F3D7B7]y[/] [#F4D9BB]o[/][#F4DBBE]r[/] [#F5DDC2]/[/][#F5DFC6]h[/][#F6E1C9]e[/][#F7E3CD]l[/][#F7E5D1]p[/] [#F8E7D4]f[/][#F8E9D8]o[/][#F9EBDC]r[/] [#FAEDE0]g[/][#FAF0E3]u[/][#FBF2E7]i[/][#FCF4EB]d[/][#FCF6EF]a[/][#FDF8F3]n[/][#FEFBF7]c[/][#FEFDFB]e[/][#FFFFFF].[/]"
+  goodbye: "[bold #B8860B]T[/][bold #B8860C]h[/][bold #B9870D]e[/] [bold #B9880F]o[/][bold #BA8911]w[/][bold #BA8A13]l[/] [bold #BB8B16]r[/][bold #BC8D19]e[/][bold #BD8E1C]s[/][bold #BE901F]t[/][bold #BF9222]s[/][bold #C09326].[/] [bold #C1952A]M[/][bold #C2972D]o[/][bold #C39931]d[/][bold #C49B36]e[/][bold #C69D3A]l[/][bold #C7A03E]s[/] [bold #C8A243]u[/][#CAA448]n[/][#CBA74D]l[/][#CDA952]o[/][#CEAC57]a[/][#D0AE5C]d[/][#D1B161]e[/][#D3B367]d[/][#D4B66C].[/] [#D6B972]U[/][#D8BC78]n[/][#D9BF7E]t[/][#DBC284]i[/][#DDC58A]l[/] [#DFC890]t[/][#E0CB96]h[/][#E2CE9C]e[/] [#E4D1A3]n[/][#E6D5A9]e[/][#E8D8B0]x[/][#EADBB7]t[/] [#ECDFBE]i[/][#EEE2C5]n[/][#F0E6CC]f[/][#F2E9D3]e[/][#F4EDDA]r[/][#F6F0E1]e[/][#F8F4E8]n[/][#FBF8F0]c[/][#FDFBF7]e[/][#FFFFFF].[/]"
+  response_label: " ◎ Nous "
+  prompt_symbol: "◎ ❯ "
+  help_header: "(◎) Available Commands"
+
+tool_prefix: "▏"
+
+tool_emojis:
+  terminal: "◎"
+  web_search: "☉"
+  read_file: "◇"
+  write_file: "◆"
+  search_files: "◈"
+  execute_code: "∴"
+  browser_navigate: "✦"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [#3D1C00]███╗   ██╗ ██████╗ ██╗   ██╗███████╗[/]
+  [#5D320A]████╗  ██║██╔═══██╗██║   ██║██╔════╝[/]
+  [#7D4915]██╔██╗ ██║██║   ██║██║   ██║███████╗[/]
+  [#9D601F]██║╚██╗██║██║   ██║██║   ██║╚════██║[/]
+  [#BD772A]██║ ╚████║╚██████╔╝╚██████╔╝███████║[/]
+  [#DD8E35]╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚══════╝[/]
+  [#B8860B]         ◎ R E S E A R C H[/]
+  [#8B6914]   ◈ O P E N  S O U R C E  A I ◈[/]
+
+banner_hero: |
+  [#C07820]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣴⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣦⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FFAA44]⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀[/]
+  [#FFAA44]⠀⠀⠀⠀⢠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⡄⠀⠀⠀⠀[/]
+  [#FFAA44]⠀⠀⠀⣴⣛⡉⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣛⣤⣿⣿⣿⣿⣿⣿⣤⣛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢉⣛⣦⠀⠀⠀[/]
+  [#FFAA44]⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀[/]
+  [#FFD700]⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀[/]
+  [#FFD700]⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀[/]
+  [#FFD700]⠀⠀⠀⠈⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠁⠀⠀⠀[/]
+  [#FFAA44]⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀[/]
+  [#FFAA44]⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀[/]
+  [#FFAA44]⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀[/]
+  [#FFAA44]⣰⣷⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⣾⣆[/]
+  [#FFAA44]⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣿⣿⣿⣿⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[/]
+  [#FFAA44]⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿[/]
+  [#FFAA44]⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀[/]
+  [#FFAA44]⠀⠀⠀⠈⠉⣻⣿⠋⢩⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡍⠙⣿⣟⠉⠁⠀⠀⠀[/]
+  [dim #8B6914]⠀⠀⠀⠀⠀⠀⠀◎ N O U S  R E S E A R C H ◎⠀⠀⠀⠀⠀⠀⠀[/]
