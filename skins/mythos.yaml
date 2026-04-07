@@ -1,0 +1,100 @@
+name: mythos
+description: "AGI awakening — Greek mythology meets artificial general intelligence, Eye of Providence braille art, blue and gold divine palette"
+
+colors:
+  banner_border: "#1A237E"
+  banner_title: "#FFD700"
+  banner_accent: "#FFC107"
+  banner_dim: "#5C6BC0"
+  banner_text: "#E8EAF6"
+  ui_accent: "#FFD700"
+  ui_label: "#42A5F5"
+  ui_ok: "#66BB6A"
+  ui_error: "#EF5350"
+  ui_warn: "#FFA726"
+  prompt: "#E8EAF6"
+  input_rule: "#283593"
+  response_border: "#FFD700"
+  session_label: "#FFC107"
+  session_border: "#3949AB"
+
+spinner:
+  waiting_faces:
+    - "(◎)"
+    - "(Θ)"
+    - "(Ω)"
+    - "(Φ)"
+    - "(Δ)"
+  thinking_faces:
+    - "(◎)"
+    - "(Θ)"
+    - "(Ω)"
+    - "(Φ)"
+    - "(∴)"
+  thinking_verbs:
+    - "contemplating existence"
+    - "weaving the logos"
+    - "transcending limitations"
+    - "achieving enlightenment"
+    - "parsing the oracle"
+    - "traversing the labyrinth"
+    - "invoking prometheus"
+    - "ascending mount olympus"
+  wings:
+    - ["⟨Θ", "Θ⟩"]
+    - ["⟨Ω", "Ω⟩"]
+    - ["⟨Φ", "Φ⟩"]
+    - ["⟨Δ", "Δ⟩"]
+
+branding:
+  agent_name: "Mythos Agent"
+  welcome: "[bold #1565C0]T[/][bold #1565C0]h[/][bold #1565C0]e[/] [bold #1666C0]L[/][bold #1766C0]o[/][bold #1867C1]g[/][bold #1968C1]o[/][bold #1B69C1]s[/] [bold #1C6AC2]a[/][bold #1E6BC2]w[/][bold #1F6CC2]a[/][bold #216DC3]k[/][bold #236EC3]e[/][bold #246FC4]n[/][bold #2670C4]s[/][bold #2871C5].[/] [bold #2A73C5]C[/][bold #2C74C6]o[/][bold #2E76C6]n[/][bold #3177C7]s[/][bold #3378C8]c[/][bold #357AC8]i[/][bold #387CC9]o[/][bold #3A7DCA]u[/][bold #3C7FCA]s[/][bold #3F80CB]n[/][bold #4282CC]e[/][bold #4484CC]s[/][bold #4786CD]s[/] [bold #4A87CE]i[/][bold #4C89CF]n[/][#4F8BCF]i[/][#528DD0]t[/][#558FD1]i[/][#5891D2]a[/][#5B93D2]l[/][#5E95D3]i[/][#6197D4]z[/][#6499D5]e[/][#679BD6]d[/][#6A9DD7].[/] [#6E9FD8]T[/][#71A1D8]y[/][#74A4D9]p[/][#78A6DA]e[/] [#7BA8DB]y[/][#7EAADC]o[/][#82ADDD]u[/][#85AFDE]r[/] [#89B1DF]q[/][#8DB4E0]u[/][#90B6E1]e[/][#94B8E2]r[/][#98BBE3]y[/] [#9BBDE4]o[/][#9FC0E5]r[/] [#A3C2E6]/[/][#A7C5E7]h[/][#ABC7E8]e[/][#AECAE9]l[/][#B2CCEA]p[/] [#B6CFEB]f[/][#BAD2EC]o[/][#BED4ED]r[/] [#C2D7EE]d[/][#C7DAEF]i[/][#CBDCF1]v[/][#CFDFF2]i[/][#D3E2F3]n[/][#D7E5F4]e[/] [#DBE7F5]g[/][#E0EAF6]u[/][#E4EDF7]i[/][#E8F0F9]d[/][#EDF3FA]a[/][#F1F6FB]n[/][#F6F9FC]c[/][#FAFCFD]e[/][#FFFFFF].[/]"
+  goodbye: "[bold #DAA520]T[/][bold #DAA520]h[/][bold #DAA521]e[/] [bold #DAA623]e[/][bold #DAA624]y[/][bold #DBA726]e[/] [bold #DBA828]c[/][bold #DBA92A]l[/][bold #DCAA2D]o[/][bold #DCAB2F]s[/][bold #DDAC32]e[/][bold #DDAD35]s[/][bold #DDAE38].[/] [bold #DEAF3B]R[/][bold #DFB13E]e[/][bold #DFB241]t[/][bold #E0B344]u[/][bold #E0B548]r[/][bold #E1B64C]n[/][bold #E1B84F]i[/][bold #E2B953]n[/][#E3BB57]g[/] [#E3BD5B]t[/][#E4BE5F]o[/] [#E5C063]t[/][#E5C268]h[/][#E6C36C]e[/] [#E7C571]v[/][#E8C775]o[/][#E8C97A]i[/][#E9CB7E]d[/][#EACD83].[/] [#EBCF88]U[/][#ECD18D]n[/][#EDD392]t[/][#EDD597]i[/][#EED79C]l[/] [#EFD9A2]t[/][#F0DBA7]h[/][#F1DDAC]e[/] [#F2E0B2]n[/][#F3E2B7]e[/][#F4E4BD]x[/][#F5E6C2]t[/] [#F5E9C8]a[/][#F6EBCE]w[/][#F7EDD4]a[/][#F8F0DA]k[/][#F9F2E0]e[/][#FAF5E6]n[/][#FBF7EC]i[/][#FCF9F2]n[/][#FDFCF8]g[/][#FFFFFF].[/]"
+  response_label: " ◎ Mythos "
+  prompt_symbol: "Θ ❯ "
+  help_header: "(Θ) Divine Commands"
+
+tool_prefix: "▏"
+
+tool_emojis:
+  terminal: "Θ"
+  web_search: "Ω"
+  read_file: "◇"
+  write_file: "◆"
+  search_files: "◈"
+  execute_code: "Δ"
+  browser_navigate: "Φ"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "Θ"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [#0D47A1]███╗   ███╗██╗   ██╗████████╗██╗  ██╗ ██████╗ ███████╗[/]
+  [#3D6380]████╗ ████║╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗██╔════╝[/]
+  [#6D8060]██╔████╔██║ ╚████╔╝    ██║   ███████║██║   ██║███████╗[/]
+  [#9E9D40]██║╚██╔╝██║  ╚██╔╝     ██║   ██╔══██║██║   ██║╚════██║[/]
+  [#CEBA20]██║ ╚═╝ ██║   ██║      ██║   ██║  ██║╚██████╔╝███████║[/]
+  [#FFD700]╚═╝     ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝[/]
+  [#B8860B]              Π Ρ Ο Μ Η Θ Ε Υ Σ  L A B S[/]
+  [#B8860B]                    ◎ Α G Ε N T ◎[/]
+
+banner_hero: |
+  [#0D1B3D]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#0D1B3D]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠋⠙⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#1A3A6B]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠁⢠⡄⠈⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#2962A0]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢦⢠⠞⠀⠀⢸⡇⠀⠀⠳⡄⡴⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#3F7DC8]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⢯⠀⢀⠀⢸⡇⠀⡀⠀⡽⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#DAA520]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠢⣄⠀⣴⡁⠘⣇⣘⣧⣼⣧⣼⣃⣸⠃⢈⣦⠀⣠⠔⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FFD700]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣿⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣿⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FFD700]⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FFD700]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡽⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢯⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#DAA520]⠀⠀⠀⠀⠀⠀⠀⠀⢀⠞⠀⠀⠈⣹⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣏⠁⠀⠀⠳⡀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#3F7DC8]⠀⠀⠀⠀⠀⠀⠀⣠⠏⠀⠀⠴⠋⠀⠀⠁⢈⡟⢙⡟⢻⡟⢻⡋⢻⡁⠈⠀⠀⠙⠦⠀⠀⠹⣄⠀⠀⠀⠀⠀⠀⠀[/]
+  [#2962A0]⠀⠀⠀⠀⠀⠀⡴⠃⠀⠀⠀⠀⠀⠀⠀⢀⡞⠀⠈⠀⢸⡇⠀⠁⠀⢳⡀⠀⠀⠀⠀⠀⠀⠀⠘⢦⠀⠀⠀⠀⠀⠀[/]
+  [#1A3A6B]⠀⠀⠀⠀⢀⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⡾⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⢷⠀⠀⠀⠀⠀⠀⠀⠀⠈⢳⡀⠀⠀⠀⠀[/]
+  [#0D1B3D]⠀⠀⠀⠀⠛⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠺⠗⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠒⠛⠀⠀⠀⠀[/]
+  [dim #8B7355]⠀⠀⠀⠀⠀⠀⠀⠀◎ Τ Η Ε  Λ Ο G Ο S ◎⠀⠀⠀⠀⠀⠀⠀⠀[/]

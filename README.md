@@ -81,6 +81,13 @@ Cyberpunk netrunner — neural interface hacker aesthetic with skull and neural 
 
 ![netrunner](screenshots/netrunner.png)
 
+#### Mythos
+AGI awakening meets Greek mythology — Eye of Providence braille art with radiating divine light, Prometheus Labs branding, Greek blue and gold palette.
+
+→ [mythos.yaml](skins/mythos.yaml)
+
+![mythos](screenshots/mythos.png)
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.
