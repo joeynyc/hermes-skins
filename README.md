@@ -89,7 +89,7 @@ AGI awakening meets Greek mythology — Eye of Providence braille art with radia
 ![mythos](screenshots/mythos.png)
 
 #### Nous
-Nous Research — open-source AI lab tribute with owl mascot braille art converted from ASCII reference, warm amber and gold palette matching Nous brand color (#DD8E35).
+Nous Research — open-source AI lab tribute with anime mascot braille art, warm amber and gold palette matching Nous brand color (#DD8E35).
 
 → [nous.yaml](skins/nous.yaml)
 
