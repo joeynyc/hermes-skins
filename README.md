@@ -95,6 +95,13 @@ Nous Research — open-source AI lab tribute with anime mascot braille art, warm
 
 ![nous](screenshots/nous.png)
 
+#### Mother
+Weyland-Yutani MU-TH-UR 6000 — amber CRT phosphor terminal fused with HAL 9000's red eye. Terse corporate AI aesthetic, HAL lens braille art, "Building Better Worlds."
+
+→ [mother.yaml](skins/mother.yaml)
+
+![mother](screenshots/mother.png)
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.

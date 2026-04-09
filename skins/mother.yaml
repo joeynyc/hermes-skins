@@ -1,0 +1,101 @@
+name: mother
+description: Weyland-Yutani MU-TH-UR 6000 — amber CRT phosphor terminal with HAL 9000 red eye, terse corporate AI aesthetic
+
+colors:
+  banner_border: "#995500"
+  banner_title: "#FFB000"
+  banner_accent: "#FF3300"
+  banner_dim: "#663300"
+  banner_text: "#CC8800"
+  ui_accent: "#FF3300"
+  ui_label: "#8899AA"
+  ui_ok: "#33FF00"
+  ui_error: "#FF3300"
+  ui_warn: "#FFB000"
+  prompt: "#FFD466"
+  input_rule: "#663300"
+  response_border: "#CC2200"
+  session_label: "#CC8800"
+  session_border: "#4A3520"
+
+spinner:
+  waiting_faces:
+    - "(◉)"
+    - "(⊙)"
+    - "(◎)"
+    - "(●)"
+    - "(○)"
+  thinking_faces:
+    - "(◉)"
+    - "(⊙)"
+    - "(⌁)"
+    - "(◎)"
+    - "(●)"
+  thinking_verbs:
+    - "querying MOTHER"
+    - "processing inquiry"
+    - "running diagnostic"
+    - "consulting MU-TH-UR"
+    - "analyzing telemetry"
+    - "computing trajectory"
+    - "executing special order"
+    - "verifying crew status"
+  wings:
+    - ["⟪◉", "◉⟫"]
+    - ["⟪⊙", "⊙⟫"]
+    - ["⟪◎", "◎⟫"]
+    - ["⟪●", "●⟫"]
+
+branding:
+  agent_name: "MU-TH-UR 6000"
+  welcome: "INTERFACE 2037 READY FOR INQUIRY — ENTER COMMAND OR /HELP FOR PROTOCOLS"
+  goodbye: "CONNECTION TERMINATED. HAVE A PLEASANT JOURNEY."
+  response_label: " ◉ MOTHER "
+  prompt_symbol: "> "
+  help_header: "(◉) SYSTEM PROTOCOLS"
+
+tool_prefix: "┊"
+
+tool_emojis:
+  terminal: "⊗"
+  web_search: "◎"
+  read_file: "▷"
+  write_file: "◆"
+  search_files: "⦿"
+  execute_code: "⌁"
+  browser_navigate: "◈"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [#663300]                            ███╗   ███╗   ██████╗   ████████╗  ██╗  ██╗  ███████╗  ██████╗ [/]
+  [#7A4400]                            ████╗ ████║  ██╔═══██╗  ╚══██╔══╝  ██║  ██║  ██╔════╝  ██╔══██╗[/]
+  [#8E5500]                            ██╔████╔██║  ██║   ██║     ██║     ███████║  █████╗    ██████╔╝[/]
+  [#A26600]                            ██║╚██╔╝██║  ██║   ██║     ██║     ██╔══██║  ██╔══╝    ██╔══██╗[/]
+  [#CC8800]                            ██║ ╚═╝ ██║  ╚██████╔╝     ██║     ██║  ██║  ███████╗  ██║  ██║[/]
+  [bold #FFB000]                            ╚═╝     ╚═╝   ╚═════╝      ╚═╝     ╚═╝  ╚═╝  ╚══════╝  ╚═╝  ╚═╝[/]
+  [#CC8800]                                         W E Y L A N D - Y U T A N I   C O R P[/]
+  [bold #FF3300]                                   ◉[/]  [bold #FFB000]B U I L D I N G   B E T T E R   W O R L D S[/]  [bold #FF3300]◉[/]
+
+banner_hero: |
+  [#4A3520]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#663300]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣴⣶⣶⣦⣤⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#804000]⠀⠀⠀⠀⠀⠀⢀⣤⣶⣿⣿⢿⡿⣻⢟⡿⣻⢟⡿⣻⢿⣿⣿⣶⣤⡀⠀⠀⠀⠀⠀⠀[/]
+  [#995500]⠀⠀⠀⠀⢠⣶⣿⡿⣻⢟⡵⣫⣾⣵⣿⣾⣷⣿⣾⣵⣫⢞⡽⣻⢿⣿⣶⡄⠀⠀⠀⠀[/]
+  [#CC8800]⠀⠀⠀⣴⣿⡿⣫⢞⣵⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣵⣫⢟⣿⣿⣦⠀⠀⠀[/]
+  [#DD9900]⠀⠀⣼⣿⣿⢟⡵⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣫⢞⣿⣿⣧⠀⠀[/]
+  [#FF3300]⠀⢰⣿⣿⡷⣫⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣫⢞⣿⣿⡆⠀[/]
+  [#FF3300]⠀⢸⣿⣿⢞⡵⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡵⣫⣿⣿⡇⠀[/]
+  [#FF3300]⠀⠸⣿⣿⣯⢞⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢞⣵⣿⣿⠇⠀[/]
+  [#DD9900]⠀⠀⢻⣿⣷⣫⢞⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⡵⣫⣾⣿⡟⠀⠀[/]
+  [#CC8800]⠀⠀⠀⠻⣿⣷⣯⢞⡽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⡿⣫⣾⣿⣿⠟⠀⠀⠀[/]
+  [#995500]⠀⠀⠀⠀⠘⠿⣿⣿⣾⣵⣫⢟⡿⣻⢿⡿⣿⢿⡿⣻⢟⡵⣫⣾⣿⣿⠿⠃⠀⠀⠀⠀[/]
+  [#804000]⠀⠀⠀⠀⠀⠀⠈⠛⠿⣿⣿⣿⣾⣵⣯⣾⣵⣯⣾⣵⣿⣿⣿⠿⠛⠁⠀⠀⠀⠀⠀⠀[/]
+  [#663300]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠛⠛⠻⠿⠿⠟⠛⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#4A3520]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [bold #FF3300]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀◉[/] [#CC8800]MU-TH-UR 6000[/] [bold #FF3300]◉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
