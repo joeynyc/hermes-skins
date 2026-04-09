@@ -5,3 +5,8 @@
 .idea/
 .vscode/
 CLAUDE.md
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env

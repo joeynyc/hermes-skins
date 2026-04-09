@@ -9,7 +9,11 @@ import sys
 import os
 import io
 
-HERMES_AGENT_DIR = os.path.expanduser("~/projects/hermes-agent")
+HERMES_AGENT_DIR = os.environ.get("HERMES_AGENT_DIR", os.path.expanduser("~/projects/hermes-agent"))
+if not os.path.isdir(HERMES_AGENT_DIR):
+    print(f"Error: hermes-agent not found at {HERMES_AGENT_DIR}")
+    print("Set the HERMES_AGENT_DIR environment variable to the correct path.")
+    sys.exit(1)
 sys.path.insert(0, HERMES_AGENT_DIR)
 
 from pathlib import Path

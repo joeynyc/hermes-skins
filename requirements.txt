@@ -1,0 +1,5 @@
+rich
+ansi2html
+html2image
+Pillow
+PyYAML

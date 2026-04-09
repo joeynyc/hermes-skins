@@ -164,7 +164,8 @@ The engine merges your skin on top of `default`, so partial skins work fine. Unk
 
 ## License
 
-MIT
+[MIT](LICENSE)
+
 ## Star History
 
 <a href="https://www.star-history.com/?repos=joeynyc%2Fhermes-skins&type=date&legend=top-left">

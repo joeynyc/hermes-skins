@@ -63,6 +63,8 @@ banner_hero: |        # Rich-markup hero art (replaces caduceus art)
 |-----|------|-------------|---------|
 | `tool_prefix` | string | Character prefixed to tool output lines | `┊` |
 | `tool_emojis` | dict | Per-tool emoji overrides `{tool_name: emoji}` | `{}` |
+
+Valid tool names: `terminal`, `web_search`, `read_file`, `write_file`, `search_files`, `execute_code`, `browser_navigate`, `delegate_task`, `mixture_of_agents`, `memory`, `clarify`, `cronjob`, `process`, `todo`
 | `banner_logo` | string | Rich-markup ASCII art logo | `""` |
 | `banner_hero` | string | Rich-markup hero art | `""` |
 
