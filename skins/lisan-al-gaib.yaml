@@ -1,0 +1,207 @@
+# ═══════════════════════════════════════════════════════════════
+# Lisan al-Gaib — A Dune Skin for Hermes Agent
+# "The sleeper must awaken."
+# ═══════════════════════════════════════════════════════════════
+#
+# Color story:
+#   Sand/brown base — the endless erg of Arrakis
+#   Spice orange accent — melange, the precious substance
+#   Blue-within-blue — the eyes of the Ibad, spice saturation
+#   Deep desert night — the sky above the bled
+#
+# Branding voice: Paul Atreides as Muad'Dib, Lisan al-Gaib,
+# the Kwisatz Haderach. Fremen idioms throughout.
+# ═══════════════════════════════════════════════════════════════
+
+name: lisan-al-gaib
+description: "Dune — sand and spice, Fremen wisdom, the voice of Muad'Dib"
+
+# ─── Colors (28 keys) ───────────────────────────────────────
+colors:
+  # Banner: sand layers from pale crest to deep shadow
+  banner_border: "#8B7355"          # Sandworm hide
+  banner_title: "#E6D5AC"           # Pale sand / sun-bleached sietch wall
+  banner_accent: "#D4A574"          # Spice glow (melange amber)
+  banner_dim: "#5C4033"             # Deep desert shadow
+  banner_text: "#F5E6C8"           # Sun-bleached stillsuit cloth
+
+  # UI: desert functional palette
+  ui_accent: "#D4A574"              # Spice — primary interactive accent
+  ui_label: "#C9A86C"               # Burnished bronze — labels and tags
+  ui_ok: "#8FBC8F"                  # Desert scrub — success (sparse green)
+  ui_error: "#CD5C5C"              # Blood on sand — errors
+  ui_warn: "#E6A23C"               # Warning sun — approaching coriolis storm
+
+  # Input area
+  prompt: "#E6D5AC"                 # Pale sand prompt text
+  input_rule: "#8B7355"             # Sandworm hide rule line
+  response_border: "#D4A574"        # Spice border around responses
+
+  # Status bar: night over the deep desert
+  status_bar_bg: "#1C1C28"          # Arrakis night sky
+  status_bar_text: "#C9A86C"        # Warm sand text on dark
+  status_bar_strong: "#6495ED"      # Blue-within-blue (the Ibad)
+  status_bar_dim: "#5C4033"         # Deep shadow separators
+  status_bar_good: "#8FBC8F"        # Water discipline — healthy context
+  status_bar_warn: "#D4A574"        # Spice scent — warning
+  status_bar_bad: "#CD853F"         # Sandstorm approaching
+  status_bar_critical: "#CD5C5C"    # Hunter-seeker alert
+
+  # Session
+  session_label: "#D4A574"          # Spice — session identity
+  session_border: "#5C4033"         # Shadow — session frame
+
+  # Voice / TUI overlays
+  voice_status_bg: "#1C1C28"        # Night sky voice pill
+  completion_menu_bg: "#1C1C28"     # Night sky menu
+  completion_menu_current_bg: "#2A2520"   # Dune shadow active row
+  completion_menu_meta_bg: "#1C1C28"      # Night sky metadata
+  completion_menu_meta_current_bg: "#3D3530"  # Warm shadow active meta
+
+# ─── Spinner ────────────────────────────────────────────────
+spinner:
+  waiting_faces:
+    - "(☉)"        # The desert sun
+    - "(☽)"        # Moon of Arrakis
+    - "(∞)"        # The Golden Path
+    - "(◇)"        # Spice crystal
+    - "(Ҩ)"        # Water — the soul of the desert
+    - "(۞)"        # The sacred mark
+    - "(⋈)"        # Maker hooks — binding the worm
+
+  thinking_faces:
+    - "(☉)"
+    - "(∞)"
+    - "(◇)"
+    - "(Ҩ)"
+    - "(۞)"
+    - "(⋈)"
+    - "(⌁)"
+
+  thinking_verbs:
+    # Fremen actions — survival, prescience, desert craft
+    - "reading the sand"
+    - "sensing the tremor"
+    - "watching for wormsign"
+    - "walking without rhythm"
+    - "consulting the Water of Life"
+    - "seeing the Golden Path"
+    - "listening to the desert"
+    - "prescient dreaming"
+    - "folding space"
+    - "summoning the Fedaykin"
+    - "measuring the thumper's beat"
+    - "reading the wind's direction"
+    - "recalling the gom jabbar"
+    - "tracing the spice trail"
+    - "counting the water rings"
+    - "feeling the sandheat rise"
+    - "chanting the litany against fear"
+    - "awakening the sleeper"
+
+  wings:
+    - - "⟪☉"
+      - "☉⟫"
+    - - "⟪∞"
+      - "∞⟫"
+    - - "⟪☽"
+      - "☽⟫"
+    - - "⟪۞"
+      - "۞⟫"
+    - - "⟪⋈"
+      - "⋈⟫"
+
+# ─── Branding ───────────────────────────────────────────────
+branding:
+  agent_name: "Muad'Dib"
+  welcome: |
+    [bold #D4A574]Ya hya chouhada![/] [dim #8B7355]The sleeper has awakened. Type your message or /help for commands.[/]
+  goodbye: |
+    "The spice must flow. Shai-Hulud guide your path."
+  response_label: " ☉ Muad'Dib "
+  prompt_symbol: "☉"
+  help_header: "(☉) Commands of the Fedaykin"
+
+# ─── Tool prefix ────────────────────────────────────────────
+tool_prefix: "│"
+
+# ─── Tool emojis (14 tools) ─────────────────────────────────
+# Each mapped to a Fremen / Dune concept
+tool_emojis:
+  terminal: "⚔"            # Crysknife — the maker's tooth
+  web_search: "⚶"          # Seeker — finding in the deep
+  read_file: "۞"           # Sacred text — the Kitab al-Manar
+  write_file: "✧"          # Maker hook — shaping the new
+  search_files: "◈"        # Finder — tracking in the sand
+  execute_code: "☉"        # Sun — raw power of the desert
+  browser_navigate: "⟡"    # Navigator — the Guild folds space
+  delegate_task: "♔"        # Naib — leader of the sietch
+  mixture_of_agents: "∞"    # Golden Path — many threads converge
+  memory: "◉"              # Water of Life — what is remembered
+  clarify: "☽"             # Moon — illumination in darkness
+  cronjob: "⏣"             # Spice cycle — eternal recurrence
+  process: "⋇"             # Stillsuit — processing what flows
+  todo: "✦"                # Task — a point in the bled
+
+# ─── Banner Logo ────────────────────────────────────────────
+# "LISAN AL-GAIB" — The Voice from the Outer World
+# Centered figlet with sand/spice icons (∿ ✧ ☽ ☉ ✦ ۞)
+# Vibrant gradient: bright gold → spice amber → deep gold
+# Subtitle: KWISATZ HADERACH centered beneath
+banner_logo: |-
+  [dim #E8A030]∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°∿≈·✦✧·°[/]
+  [dim #E8A030]∿[/] [dim #E8A030]✧[/] [dim #F0D060]☽[/]            [bold #F0D060] _     ___ ____    _    _   _      _    _           ____    _    ___ ____  [/]        [dim #F0D060]☉[/] [dim #E8A030]✦[/] [dim #E8A030]∿[/]
+  [dim #E8A030]∿[/] [dim #E8A030]✦[/] [dim #F0D060]☉[/]            [bold #F0D060]| |   |_ _/ ___|  / \  | \ | |    / \  | |         / ___|  / \  |_ _| __ ) [/]        [dim #F0D060]☽[/] [dim #E8A030]✧[/] [dim #E8A030]∿[/]
+  [dim #E8A030]∿[/] [dim #E8A030]✧[/] [dim #F0D060]۞[/]            [bold #E8A030]| |    | |\___ \ / _ \ |  \| |   / _ \ | |   _____| |  _  / _ \  | ||  _ \ [/]        [dim #F0D060]✦[/] [dim #E8A030]☉[/] [dim #E8A030]∿[/]
+  [dim #E8A030]∿[/] [dim #E8A030]✦[/] [dim #F0D060]☽[/]            [bold #D4A020]| |___ | | ___) / ___ \| |\  |  / ___ \| |__|_____| |_| |/ ___ \ | || |_) |[/]        [dim #F0D060]۞[/] [dim #E8A030]✧[/] [dim #E8A030]∿[/]
+  [dim #E8A030]∿[/] [dim #E8A030]✧[/] [dim #F0D060]☉[/]            [bold #C89020]|_____|___|____/_/   \_\_\_\_| /_/   \_\____/______\__/_/_/   \_|___|____/[/]         [dim #F0D060]☽[/] [dim #E8A030]✦[/] [dim #E8A030]∿[/]
+  [dim #8B7355]────────────────── [italic bold #6495ED]KWISATZ HADERACH :: The Shortening of the Way :: Prophet of Arrakis[/] [dim #8B7355]──────────────────[/]
+
+# ─── Banner Hero ────────────────────────────────────────────
+# The JRO serpent-ship — beast of the deep desert
+# Layered: night sky → sandworm-scale hull → spice sails → shadow wake
+# Artist: JRO (signature preserved)
+# Caption: The Lisan al-Gaib, Voice from the Outer World
+banner_hero: |-
+  [#1C1C28]                    .-.._    ___                       [/]
+  [#1C1C28]                 ,-'   |:\ /'--`.                      [/]
+  [#2A2520]                /'    ,|:|/::::| '\                    [/]
+  [#3A3550]              ,'  ,.-:::::::::::.  \                   [/]
+  [#3A3550]            _/' /::::::::::::::::`  \                  [/]
+  [#3A3550]           /'  ':::::::_,--.::::::`.'\                 [/]
+  [#5C4033]          /  ,'::::.,-'     `\::::::||                 [/]
+  [#5C4033]         |  /:::_/'           `\::::||                 [/]
+  [#5C4033]         |  \:::-                \:::||                [/]
+  [#5C4033]         /_                      \_/ |                 [/]
+  [#8B7355]        |  '-._                      /                 [/]
+  [#8B7355]        |'.    '`-..._              |                  [/]
+  [#8B7355]        ..  '--_             ''----.|                  [/]
+  [#A08060]        | `._   '-----  '''----__,..\                  [/]
+  [#A08060]        |.._ '-.._________..--'   ,'|_                 [/]
+  [#8B7355]             |   `--..__            _,' /| ''--.            [/]
+  [#6B5344]        .__     |          '`-------'''   /-\ .-.._\_\         [/]
+  [#6B5344]           '-\_\ \-----....__        _..'   ,.-. `. .`\        [/]
+  [#5C4033]                '`.          """--"""    _/' _. \ \  | \       [/]
+  [#5C4033]                         \--..___       ___..--   / | ' |  |  \   __-[/]
+  [#4A3728]            _,........\      """--""        ./  |/-..__=..|,-'   [/]
+  [#3D3530]        ''           `            __,...-''  ,'     -.. '      [/]
+  [#3D3530]                            `.-...,-''''          - |        '`------[/]
+  [#3D3530]               \              _.,-'' .'                [/]
+  [#4A3728]                \ ..______.,-'      ,'                 [/]
+  [#4A3728]                 '-.             ,/'                   [/]
+  [#5C4033]                    ''---'......-'                     [/]
+  [#5C4033]                            /`-._            [/]
+  [#1C1C28]                                  |:::""--.._ [/]
+  [#2A2520]                    /(     )\           /::::::;;;;;\____  [/]
+  [#3A3550]                    \\  _  //          /;;::::::;;;;;;;;;\  [/]
+  [#5C4033]         _           / \(_)/ \         /;;;;:::::::;;;;;;;;[/]
+  [#5C4033]        /;|          |       <        |;;;;;;;:::::::;;;;;;[/]
+  [#8B7355]   ,-._/;;\           \_    /        /;;;;;;;;;:::::::::::;[/]
+  [#8B7355]-;;::::;;;;\           /    |       /;;;;;:::::::::;;;:::::[/]
+  [#A08060]::;;;;;;;;;;\          |    /     _/;;;;::::::::::;;;;;::::[/]
+  [#8B7355]:::;;;;;;;;;;\         \__  \    /;;;;;:::::::::;;;;;::::;;[/]
+  [#8B7355]:::::;;;;;;;;;\           `-'   /;;;;:::::::::;;;;;;;;;::;;[/]
+  [#6B5344]JRO::::;;;;;;;;|               /;;;;;:::::;;;;;;;;;;;:::JRO[/]
+  [dim #3D3530]╔════════════════════════════════════════════════════════════════════╗[/]
+  [dim #5C4033]║ [bold #D4A574]  ☉ [/][dim #5C4033]He is the [bold #E6D5AC]LISAN AL-GAIB[/][dim #5C4033], the Voice from the Outer World. [bold #D4A574]☉[/][dim #5C4033]   ║[/]
+  [dim #3D3530]╚════════════════════════════════════════════════════════════════════╝[/]
