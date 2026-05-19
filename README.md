@@ -130,6 +130,14 @@ Catppuccin Mocha — soothing pastel theme with mauve, pink, peach, and lavender
 
 ![catppuccin](screenshots/catppuccin.png)
 
+#### Lisan-Al-Gaib
+Lisan al-Gaib — A Dune Skin for Hermes Agent
+
+-> [lisan-al-gaib.yaml](skins/lisan-al-gaib.yaml)
+
+[lisan-al-gaib](screenshots/lisan-al-gaib.png)
+
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.
