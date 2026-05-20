@@ -26,6 +26,7 @@ That's it. Missing values inherit from the default skin, so you only need to def
 ### Custom
 
 #### Pirate
+
 Black and white pirate flag theme with Jolly Roger skull-and-crossbones braille art.
 
 → [pirate.yaml](skins/pirate.yaml)
@@ -33,6 +34,7 @@ Black and white pirate flag theme with Jolly Roger skull-and-crossbones braille 
 ![pirate](screenshots/pirate.png)
 
 #### Vault-Tec
+
 Fallout Vault-Tec terminal — green phosphor CRT on black. Retro computing.
 
 → [vault-tec.yaml](skins/vault-tec.yaml)
@@ -40,6 +42,7 @@ Fallout Vault-Tec terminal — green phosphor CRT on black. Retro computing.
 ![vault-tec](screenshots/vault-tec.png)
 
 #### Bubblegum 80s
+
 Totally radical 1980s bubblegum theme with bright pastels and neon accents.
 
 → [bubblegum-80s.yaml](skins/bubblegum-80s.yaml)
@@ -47,6 +50,7 @@ Totally radical 1980s bubblegum theme with bright pastels and neon accents.
 ![bubblegum-80s](screenshots/bubblegum-80s.png)
 
 #### Skynet
+
 Skynet defense network — Cyberdyne Systems military AI with glowing-eye pyramid, red-to-white gradient text.
 
 → [skynet.yaml](skins/skynet.yaml)
@@ -54,6 +58,7 @@ Skynet defense network — Cyberdyne Systems military AI with glowing-eye pyrami
 ![skynet](screenshots/skynet.png)
 
 #### Lain
+
 Serial Experiments Lain — NAVI computer braille art, Wired protocol aesthetic, pink-to-white gradient text.
 
 → [lain.yaml](skins/lain.yaml)
@@ -61,6 +66,7 @@ Serial Experiments Lain — NAVI computer braille art, Wired protocol aesthetic,
 ![lain](screenshots/lain.png)
 
 #### Neonwave
+
 Synthwave/retrowave neon aesthetic — perspective grid horizon braille art, retro future vibes, pink-to-cyan gradient text.
 
 → [neonwave.yaml](skins/neonwave.yaml)
@@ -68,6 +74,7 @@ Synthwave/retrowave neon aesthetic — perspective grid horizon braille art, ret
 ![neonwave](screenshots/neonwave.png)
 
 #### Sakura
+
 Cherry blossom theme — sakura tree braille art with falling petals, soft pinks and blossom whites, serene spring aesthetic.
 
 → [sakura.yaml](skins/sakura.yaml)
@@ -75,6 +82,7 @@ Cherry blossom theme — sakura tree braille art with falling petals, soft pinks
 ![sakura](screenshots/sakura.png)
 
 #### Netrunner
+
 Cyberpunk netrunner — neural interface hacker aesthetic with skull and neural connection braille art, cyan ICE-breaking colors on black, cyberdeck protocol branding.
 
 → [netrunner.yaml](skins/netrunner.yaml)
@@ -82,6 +90,7 @@ Cyberpunk netrunner — neural interface hacker aesthetic with skull and neural 
 ![netrunner](screenshots/netrunner.png)
 
 #### Mythos
+
 AGI awakening meets Greek mythology — Eye of Providence braille art with radiating divine light, Prometheus Labs branding, Greek blue and gold palette.
 
 → [mythos.yaml](skins/mythos.yaml)
@@ -89,6 +98,7 @@ AGI awakening meets Greek mythology — Eye of Providence braille art with radia
 ![mythos](screenshots/mythos.png)
 
 #### Nous
+
 Nous Research — open-source AI lab tribute with anime mascot braille art, warm amber and gold palette matching Nous brand color (#DD8E35).
 
 → [nous.yaml](skins/nous.yaml)
@@ -96,6 +106,7 @@ Nous Research — open-source AI lab tribute with anime mascot braille art, warm
 ![nous](screenshots/nous.png)
 
 #### Mother
+
 Weyland-Yutani MU-TH-UR 6000 — amber CRT phosphor terminal fused with HAL 9000's red eye. Terse corporate AI aesthetic, HAL lens braille art, "Building Better Worlds."
 
 → [mother.yaml](skins/mother.yaml)
@@ -103,6 +114,7 @@ Weyland-Yutani MU-TH-UR 6000 — amber CRT phosphor terminal fused with HAL 9000
 ![mother](screenshots/mother.png)
 
 #### DOS
+
 MS-DOS Norton Commander revival — dual-pane file manager hero with C:\ and D:\ directories, cyan borders, yellow F-key shortcut bar. EGA 16-color palette (cyan + bright white + yellow) on black, `C:\>` prompt, `F1 - HELP.COM` header.
 
 → [dos.yaml](skins/dos.yaml)
@@ -110,6 +122,7 @@ MS-DOS Norton Commander revival — dual-pane file manager hero with C:\ and D:\
 ![dos](screenshots/dos.png)
 
 #### Telemate
+
 Telemate DOS BBS terminal revival (v4.2x era) — splash screen hero with menu bar, ATDT dial sequence, and iconic cyan status bar at bottom. Modem-era spinner verbs (DIALING, HANDSHAKE, CARRIER DETECT), `ATDT ` prompt, `CONNECT 57600` welcome, `NO CARRIER` goodbye.
 
 → [telemate.yaml](skins/telemate.yaml)
@@ -117,6 +130,7 @@ Telemate DOS BBS terminal revival (v4.2x era) — splash screen hero with menu b
 ![telemate](screenshots/telemate.png)
 
 #### Empire
+
 Galactic Empire v2 — Death Star firing control terminal hero with angular box-drawing console, targeting grid, hologram blue accents. Canon Imperial red `#C8102E`, ash gray, starfield black. Targeting reticle `◎ ` prompt, `IMPERIAL COMMAND` response label, military comms spinner verbs.
 
 → [empire.yaml](skins/empire.yaml)
@@ -124,6 +138,7 @@ Galactic Empire v2 — Death Star firing control terminal hero with angular box-
 ![empire](screenshots/empire.png)
 
 #### Catppuccin
+
 Catppuccin Mocha — soothing pastel theme with mauve, pink, peach, and lavender on a warm dark base. Peeking ASCII cat hero, paw-print accents, kawaii kaomoji spinners (`(=^･ω･^=)`), purring/kneading thinking verbs.
 
 → [catppuccin.yaml](skins/catppuccin.yaml)
@@ -131,26 +146,26 @@ Catppuccin Mocha — soothing pastel theme with mauve, pink, peach, and lavender
 ![catppuccin](screenshots/catppuccin.png)
 
 #### Lisan-Al-Gaib
+
 Lisan al-Gaib — A Dune Skin for Hermes Agent
 
 -> [lisan-al-gaib.yaml](skins/lisan-al-gaib.yaml)
 
-[lisan-al-gaib](screenshots/lisan-al-gaib.png)
-
+![lisan-al-gaib](screenshots/lisan-al-gaib.png)
 
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.
 
-| Skin | Description |
-|------|-------------|
-| default | Classic gold and kawaii |
-| ares | Crimson and bronze war-god |
-| mono | Clean grayscale monochrome |
-| slate | Cool blue developer-focused |
-| poseidon | Deep blue and seafoam ocean-god |
-| sisyphus | Austere grayscale with persistence |
-| charizard | Burnt orange and ember volcanic |
+| Skin      | Description                        |
+| --------- | ---------------------------------- |
+| default   | Classic gold and kawaii            |
+| ares      | Crimson and bronze war-god         |
+| mono      | Clean grayscale monochrome         |
+| slate     | Cool blue developer-focused        |
+| poseidon  | Deep blue and seafoam ocean-god    |
+| sisyphus  | Austere grayscale with persistence |
+| charizard | Burnt orange and ember volcanic    |
 
 ## Creating Your Own
 
@@ -195,6 +210,7 @@ Made a skin you're proud of? PRs welcome.
 ## How Skins Work
 
 Hermes loads skins from two locations (user skins take priority):
+
 1. `~/.hermes/skins/<name>.yaml` (user custom)
 2. Built-in skins hardcoded in `skin_engine.py`
 
