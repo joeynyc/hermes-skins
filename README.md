@@ -137,6 +137,13 @@ For NVIDIA DGX Spark owners — signature NVIDIA green paired with the champagne
 
 ![dgx-spark](screenshots/dgx-spark.png)
 
+#### Alchemist
+Fullmetal Alchemist Brotherhood — Amestrian State Alchemist palette. Deep reds, military olive, steel, and philosopher's gold. Equivalent exchange braise art, alchemical array hero, transmutation-circle spinner verbs (`transmuting`, `distilling`, `calcinating`, `opening the gate`).
+
+→ [alchemist.yaml](skins/alchemist.yaml)
+
+![alchemist](screenshots/alchemist.png)
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.
