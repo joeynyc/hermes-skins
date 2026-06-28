@@ -130,6 +130,13 @@ Catppuccin Mocha — soothing pastel theme with mauve, pink, peach, and lavender
 
 ![catppuccin](screenshots/catppuccin.png)
 
+#### DGX Spark
+For NVIDIA DGX Spark owners — signature NVIDIA green paired with the champagne-gold of the Spark's metallic case and honeycomb grille. "DGX SPARK" block logo, GB10 Grace Blackwell branding, honeycomb-mesh hero, and GPU/compute spinner verbs (`warming tensor cores`, `streaming to GB10`, `quantizing weights`).
+
+→ [dgx-spark.yaml](skins/dgx-spark.yaml)
+
+![dgx-spark](screenshots/dgx-spark.png)
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.

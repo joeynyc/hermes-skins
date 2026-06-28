@@ -1,0 +1,129 @@
+# DGX Spark — for NVIDIA DGX Spark owners. Signature NVIDIA green paired with
+# the champagne-gold of the Spark's metallic case and honeycomb grille. GB10
+# Grace Blackwell branding, GPU/compute spinner verbs, and a honeycomb-mesh
+# hero panel evoking the unit's perforated gold front.
+
+name: dgx-spark
+description: NVIDIA DGX Spark — signature NVIDIA green with champagne-gold case accents, GB10 Grace Blackwell branding, and a honeycomb-mesh banner
+
+colors:
+  # Banner — NVIDIA green frame, champagne-gold accent (the case), greenish text
+  banner_border: "#76B900"   # NVIDIA green
+  banner_title:  "#A4E100"   # bright green
+  banner_accent: "#CBA35E"   # champagne gold (Spark case)
+  banner_dim:    "#5A6B3C"   # muted olive
+  banner_text:   "#E3EDD0"   # greenish white
+
+  # UI
+  ui_accent: "#76B900"       # NVIDIA green
+  ui_label:  "#CBA35E"       # champagne gold
+  ui_ok:     "#76B900"       # green (on brand for success)
+  ui_error:  "#FF5252"       # red
+  ui_warn:   "#FFB300"       # amber
+
+  # Input / output
+  prompt:          "#E3EDD0"
+  input_rule:      "#3A5F00" # dark green
+  response_border: "#76B900"
+
+  # Status bar (near-black green base)
+  status_bar_bg:       "#0F1A06"
+  status_bar_text:     "#C7D6B0"
+  status_bar_strong:   "#A4E100"
+  status_bar_dim:      "#5A6B3C"
+  status_bar_good:     "#76B900"
+  status_bar_warn:     "#FFB300"
+  status_bar_bad:      "#FF8C00"
+  status_bar_critical: "#FF5252"
+
+  # Voice / completion menus
+  voice_status_bg:                 "#0F1A06"
+  completion_menu_bg:              "#12200A"
+  completion_menu_current_bg:      "#2E4D0F"
+  completion_menu_meta_bg:         "#0F1A06"
+  completion_menu_meta_current_bg: "#3A5F14"
+
+  # Session
+  session_label:  "#CBA35E"
+  session_border: "#5A6B3C"
+
+spinner:
+  waiting_faces:
+    - "[▱▱▱]"
+    - "[▰▱▱]"
+    - "[▰▰▱]"
+    - "[▰▰▰]"
+    - "[▰▰▱]"
+    - "[▰▱▱]"
+  thinking_faces:
+    - "(◰)"
+    - "(◳)"
+    - "(◲)"
+    - "(◱)"
+  thinking_verbs:
+    - "warming tensor cores"
+    - "allocating unified memory"
+    - "fusing CUDA kernels"
+    - "running inference"
+    - "streaming to GB10"
+    - "scheduling SM cores"
+    - "quantizing weights"
+    - "saturating the bus"
+  wings:
+    - ["⟪▰", "▰⟫"]
+    - ["⟪◆", "◆⟫"]
+    - ["⟪⚡", "⚡⟫"]
+    - ["⟪▣", "▣⟫"]
+
+branding:
+  agent_name: "DGX Spark Agent"
+  welcome: "[bold #76B900]NVIDIA DGX Spark online.[/] [#A4E100]GB10 Grace Blackwell ready — 128GB unified memory.[/] [#CBA35E]Type your message or[/] [#76B900]/help[/] [#CBA35E]for commands.[/]"
+  goodbye: "GPU idle. Cores parked. Powering down. ⏻"
+  response_label: " ▰ DGX Spark "
+  prompt_symbol: "▰ ❯ "
+  help_header: "(◰) Available Commands"
+
+tool_prefix: "┊"
+
+tool_emojis:
+  terminal: "▰"
+  web_search: "🛰"
+  web_fetch: "📡"
+  read_file: "▦"
+  write_file: "✎"
+  patch: "🩹"
+  search_files: "🔍"
+  execute_code: "⚙"
+  browser_navigate: "🧭"
+  delegate_task: "▤"
+  mixture_of_agents: "▦"
+  memory: "▣"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+  skill_view: "◆"
+  skills_list: "▦"
+  text_to_speech: "🔔"
+  vision_analyze: "👁"
+
+banner_logo: |
+  [#3A5F00]██████╗  ██████╗ ██╗  ██╗   ███████╗██████╗  █████╗ ██████╗ ██╗  ██╗[/]
+  [#4C7A00]██╔══██╗██╔════╝ ╚██╗██╔╝   ██╔════╝██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝[/]
+  [#5E9400]██║  ██║██║  ███╗ ╚███╔╝    ███████╗██████╔╝███████║██████╔╝█████╔╝ [/]
+  [#76B900]██║  ██║██║   ██║ ██╔██╗    ╚════██║██╔═══╝ ██╔══██║██╔══██╗██╔═██╗ [/]
+  [#92D400]██████╔╝╚██████╔╝██╔╝ ██╗   ███████║██║     ██║  ██║██║  ██║██║  ██╗[/]
+  [#A4E100]╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝[/]
+  [#CBA35E]            G B 1 0   ·   G R A C E   B L A C K W E L L[/]
+  [bold #76B900]                           ▰[/] [bold #CBA35E]A G E N T[/] [bold #76B900]▰[/]
+
+banner_hero: |
+  [#5A6B3C]───────── grace blackwell ─────────[/]
+  [#76B900]┌────────────────────────────┐[/]
+  [#CBA35E]│ __    __    __    __    __ │[/]
+  [#B8923F]│/  \__/  \__/  \__/  \__/  \│[/]
+  [#CBA35E]│\__/  \__/  \__/  \__/  \__/│[/]
+  [#B8923F]│/  \__/  \__/  \__/  \__/  \│[/]
+  [#CBA35E]│\__/  \__/  \__/  \__/  \__/│[/]
+  [#76B900]└────────────────────────────┘[/]
+  [bold #76B900]▰[/] [bold #CBA35E]N V I D I A   D G X   S P A R K[/] [bold #76B900]▰[/]

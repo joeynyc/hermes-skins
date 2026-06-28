@@ -64,7 +64,7 @@ spinner:
 branding:
   agent_name: "MS-DOS Agent"
   welcome: '[bold #55FFFF]C[/][bold #55FFFE]:[/][bold #57FFFC]\[/][bold #59FFFA]>[/] [bold #5BFFF8]H[/][bold #5EFFF5]E[/][bold #61FFF2]R[/][bold #64FFEF]M[/][bold #67FFEC]E[/][bold #6BFFE8]S[/][bold #6EFFE5].[/][bold #72FFE1]E[/][bold #77FFDC]X[/][bold #7BFFD8]E[/] [bold #80FFD3]L[/][#84FFCF]O[/][#89FFCA]A[/][#8EFFC5]D[/][#93FFC0]E[/][#98FFBB]D[/][#9EFFB5].[/] [#A4FFAF]P[/][#A9FFAA]R[/][#AFFFA4]E[/][#B5FF9E]S[/][#BBFF98]S[/] [#C1FF92]F[/][#C8FF8B]1[/] [#CEFF85]F[/][#D5FF7E]O[/][#DBFF78]R[/] [#E2FF71]H[/][#E9FF6A]E[/][#F0FF63]L[/][#F7FF5C]P[/][#FFFF55].[/]'
-  goodbye: "C:\> Thank you for using Norton Commander."
+  goodbye: 'C:\> Thank you for using Norton Commander.'
   response_label: " C:\\> HERMES "
   prompt_symbol: "C:\\> "
   help_header: "F1 - HELP.COM - Available Commands"
