@@ -205,10 +205,10 @@ The engine merges your skin on top of `default`, so partial skins work fine. Unk
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=joeynyc%2Fhermes-skins&type=date&legend=top-left">
+<a href="https://star-history.dera.page/#joeynyc/hermes-skins&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=joeynyc/hermes-skins&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=joeynyc/hermes-skins&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=joeynyc/hermes-skins&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=joeynyc/hermes-skins&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=joeynyc/hermes-skins&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=joeynyc/hermes-skins&type=date&legend=top-left" />
  </picture>
 </a>
