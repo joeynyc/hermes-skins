@@ -1,0 +1,99 @@
+name: alchemist
+description: Alchemist — FMA Brotherhood palette. Equivalent exchange. Deep reds, military olive, steel, and philosopher's gold.
+
+colors:
+  # --- FMA Brotherhood — Amestrian Red/White (bright for dark terminals) ---
+  banner_border: "#FF2222"
+  banner_title: "#FFFFFF"
+  banner_accent: "#FF4444"
+  banner_dim: "#CC0000"
+  banner_text: "#FFFFFF"
+
+  # UI: State Alchemist — vivid red on black
+  ui_accent: "#FF3333"
+  ui_label: "#E0E0E0"
+  ui_ok: "#44FF44"
+  ui_error: "#FF3333"
+  ui_warn: "#FFAA00"
+
+  # Prompt/Input: bright white on red
+  prompt: "#FFFFFF"
+  input_rule: "#FF2222"
+  response_border: "#FF3333"
+
+  # Status bar: black bg, bright red/white fg
+  status_bar_bg: "#000000"
+  status_bar_text: "#F0F0F0"
+  status_bar_strong: "#FFFFFF"
+  status_bar_dim: "#FF2222"
+  status_bar_good: "#44FF44"
+  status_bar_warn: "#FFAA00"
+  status_bar_bad: "#FF3333"
+  status_bar_critical: "#FF0000"
+
+  voice_status_bg: "#000000"
+  selection_bg: "#660000"
+  completion_menu_bg: "#000000"
+  completion_menu_current_bg: "#660000"
+  completion_menu_meta_bg: "#000000"
+  completion_menu_meta_current_bg: "#660000"
+
+  session_label: "#FF3333"
+  session_border: "#CC0000"
+
+spinner:
+  waiting_faces: ["(☿)", "(🜁)", "(🜂)", "(🜃)", "(🜄)"]
+  thinking_faces: ["(☿)", "(🜍)", "(🜔)", "(⊕)"]
+  thinking_verbs:
+    - "transmuting"
+    - "distilling"
+    - "calcinating"
+    - "dissolving"
+    - "coagulating"
+    - "sublimating"
+    - "fermenting"
+    - "projecting the stone"
+    - "arranging array"
+    - "opening the gate"
+  wings:
+    - ["⟪☿", "☿⟫"]
+    - ["⟪🜍", "🜍⟫"]
+    - ["⟪🜔", "🜔⟫"]
+
+branding:
+  agent_name: "Alchemist"
+  welcome: "Welcome, seeker. The work begins. Type your message or /help for commands."
+  goodbye: "The vessel returns to earth. ☿"
+  response_label: " ☿ Alchemist "
+  prompt_symbol: "🜍"
+  help_header: "(☿) Available Commands"
+
+tool_prefix: "┊"
+
+banner_logo: |
+  [bold #FF3333] █████╗ ██╗      ██████╗██╗  ██╗███████╗███╗   ███╗██╗███████╗████████╗[/]
+  [bold #FFFFFF]██╔══██╗██║     ██╔════╝██║  ██║██╔════╝████╗ ████║██║██╔════╝╚══██╔══╝[/]
+  [bold #FF6666]███████║██║     ██║     ███████║█████╗  ██╔████╔██║██║███████╗   ██║   [/]
+  [bold #CC0000]██╔══██║██║     ██║     ██╔══██║██╔══╝  ██║╚██╔╝██║██║╚════██║   ██║   [/]
+  [bold #880000]██║  ██║███████╗╚██████╗██║  ██║███████╗██║ ╚═╝ ██║██║███████║   ██║   [/]
+  [bold #550000]╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝╚══════╝   ╚═╝   [/]
+
+banner_hero: |
+  [#880000]⠀⠀⠀⠀⠀⠀⠀⢰⣤⣠⣴⣦⣄⣤⡆⠀⠀⠀⠀⠀⠀⠀[/]
+  [#880000]⠲⢶⣶⣶⣶⣶⡄⠸⠿⠿⠿⠿⠿⠿⠇⢠⣶⣶⣶⣶⡶⠖[/]
+  [#CC0000]⠀⠀⠉⠻⠿⠿⢿⣦⡀⠀⠀⠀⠀⢀⣴⡿⠿⠿⠟⠉⠀⠀[/]
+  [#CC0000]⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⣼⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF3333]⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⢹⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF3333]⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣾⣷⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FF3333]⠀⠀⠀⠀⠀⠀⣰⣿⣿⠿⢿⡿⠿⣿⣿⣆⠀⠀⠀⠀⠀⠀[/]
+  [#FF3333]⠀⢀⣀⠀⠀⢰⣿⣿⠁⠀⢸⡇⠀⠈⣿⣿⡆⠀⠀⣀⡀⠀[/]
+  [#FFFFFF]⠘⠻⠿⠛⠛⠛⣿⣿⠛⠛⢻⡟⠛⠛⣿⣿⠛⠛⠛⠿⠟⠃[/]
+  [#FF3333]⠀⠀⠀⠀⠀⠰⣿⣿⡷⠀⢸⡇⣠⣾⡿⠁⠀⠀⠀⠀⠀⠀[/]
+  [#FF3333]⠀⠀⠀⠀⠀⠀⠈⠛⠁⣠⣾⣿⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CC0000]⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⢿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CC0000]⠀⠀⠀⠀⠀⠀⠀⠸⣿⣧⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#880000]⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#880000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#550000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#550000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [dim #330000]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
