@@ -139,6 +139,13 @@ For NVIDIA DGX Spark owners — signature NVIDIA green paired with the champagne
 
 ![dgx-spark](screenshots/dgx-spark.png)
 
+#### Hatsune Miku
+Vocaloid virtual idol theme — Hatsune Miku braille portrait art, electric cyan-blue (`#00F5E0`) on near-black with magenta-pink (`#FF2A8E`) and warm yellow (`#FFFD78`) accents. Musical note prompt (`♪ ❯ `), kaomoji spinners, and synth/stage thinking verbs (`tuning the vocal synth`, `twirling the leek`, `syncing to the beat`).
+
+→ [miku.yaml](skins/miku.yaml)
+
+![miku](screenshots/miku.png)
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.
